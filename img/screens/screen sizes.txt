@@ -1,0 +1,27 @@
+bizzed1 425
+dmm1 323
+dmm2 323
+dmm3 230
+egg1 655
+egg2 345
+goodhome1 245
+goodhome2 260
+goodhome3 279
+goodhome4 487
+growvision 215
+jcpenney1 235
+jcpenney2 230
+jcpenney3 240
+jcpenney4 240
+newt1 220
+newt2 220
+newt3 220
+trader1 
+trader2 250
+quadrite1 220
+quadrite2 220
+quadrite3 240
+quadrite4 350
+starbright 350
+toyota1 270
+

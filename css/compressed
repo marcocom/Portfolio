@@ -1,0 +1,38 @@
+/*
+Syntax error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.
+        on line 40 of compressed
+
+35: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/bin/scss:13:in `<top (required)>'
+36: C:/Ruby193/bin/scss:23:in `load'
+37: C:/Ruby193/bin/scss:23:in `<main>'
+38: *\/
+39: body:before {
+40:   white-space: pre;
+41:   font-family: monospace;
+42:   content: "Syntax error: Invalid property: \"Backtrace:\" (no value).\A         on line 4 of compressed\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory - \A 3: \A 4: Backtrace:\A 5: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:405:in `read'\A 6: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:405:in `update_stylesheet'\A 7: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'\A 8: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:186:in `each'\A 9: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'"; }
+
+Backtrace:
+compressed:40
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/engine.rb:491:in `block in tabulate'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/engine.rb:449:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/engine.rb:449:in `each_with_index'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/engine.rb:449:in `tabulate'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/engine.rb:412:in `_to_tree'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/engine.rb:274:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:186:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/exec.rb:489:in `watch_or_update'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/exec.rb:346:in `process_result'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/exec.rb:43:in `parse'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/exec.rb:22:in `parse!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/bin/scss:13:in `<top (required)>'
+C:/Ruby193/bin/scss:23:in `load'
+C:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 40 of compressed\A \A 35: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/bin/scss:13:in `<top (required)>'\A 36: C:/Ruby193/bin/scss:23:in `load'\A 37: C:/Ruby193/bin/scss:23:in `<main>'\A 38: */\A 39: body:before {\A 40:   white-space: pre;\A 41:   font-family: monospace;\A 42:   content: \"Syntax error: Invalid property: \\"Backtrace:\\" (no value).\A         on line 4 of compressed\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory - \A 3: \A 4: Backtrace:\A 5: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:405:in `read'\A 6: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:405:in `update_stylesheet'\A 7: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'\A 8: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:186:in `each'\A 9: C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.6/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'\"; }"; }

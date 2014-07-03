@@ -1,0 +1,95 @@
+[
+
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "NISSAN SHIFT_2.0",
+        "Client": "TBWA / The Designory",
+        "JobTitle": "Flash Developer",
+        "Article": "SHIFT_2.0 was a TBWA/Chiat-Day campaign that sought to redefine the Nissan brand toward consumer-driven engineering . Concepted by me, under the creative direction of Amy Ivey and Tom Weisz, this project was targeted for broadband users and streams a seemless integration of multiple transparent FLV videos overlayed to meld the different Maya3D assets and AfterEffects animations by Ben Black, with fully roto-scoped greenscreen foreground vignettes filmed by PLUM/BEAU productions.",
+        "URL": "samples/flash/shift/base_remote.html",
+        "Dimensions":"1000,740",
+        "Image":[
+            "img/screens/shift1.jpg",
+            "img/screens/shift2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "YO ROTO! CiCi's Pizza",
+        "Client": "Deutsch LA",
+        "JobTitle": "Flash Developer",
+        "Article": "The viral YouTube videos depict an underground hero who works as a sign-spinner for the CiCis pizza company and pulls seemingly impossible gymnastic and break-dance moves and has generated a following.  My role was to create the destination website that is seeded in the endtag of the videos.  The site houses the videos for replay, and also presents the user with a game, inspired by GuitarHero, and a method to challenge their friends for hi-score. Game design and code provided by Fuel, my code interfaced the game with server-side customization code and fused the different sections into a seamless user experience.",
+        "URL": "samples/flash/yoroto/index.html",
+        "Dimensions":"1200,1000",
+        "Image":[
+            "img/screens/yoroto1.jpg",
+            "img/screens/yoroto2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "60 MINUTES",
+        "Client": "Code Particle",
+        "JobTitle": "Front-End Developer",
+        "Article": "Built in MVC javascript to achieve a rich-media effect that was previously only possible in Flash. My job was javascripting of social-features and optional flash-based video-logic for pre-roll advertising.",
+        "URL": "samples/html5/60minutes",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/60minutes1.jpg",
+            "img/screens/60minutes2.jpg",
+            "img/screens/60minutes3.jpg",
+            "img/screens/60minutes3.jpg"
+        ]
+    },
+
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "KPN TOUCH KIOSKE",
+        "Client": "Quince Amsterdam",
+        "JobTitle": "Creative Director",
+        "Article": "This was designed to be a table-mounted kioske that allows cellphone store customers (KPN is the largest carrier in The Netherlands) to see accessory items for their smart-phones and either purchase them from the store, or order them directly. The image depicts five phases of the unusually-shaped interface",
+        "URL": "samples/comps/kpn_kioske.jpg",
+        "Dimensions":"1600,720",
+        "Image":[
+            "img/screens/kpn_kioske.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "SCION MEDIA 2010",
+        "Client": "Whitmann-Hart / The Attic",
+        "JobTitle": "Creative Technologist",
+        "Article": "My concept with this banner-ad campaign was to use coded animations to reduce k-size while creating a blown-up effect to showcase how configurable and personalized your Scion can be. This was later used for the landing-page of all vehicles.",
+        "URL": "samples/banners/scion/index.html",
+        "Dimensions":"800,720",
+        "Image":[
+            "img/screens/scion1.jpg",
+            "img/screens/scion2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TONY HAWK : RIDE",
+        "Client": "Activision",
+        "JobTitle": "Creative Technologist",
+        "Article": "A very tight turn-around execution that integrates 360, Twitter API, GoogleMaps API, and deployed to over 18 different languages.",
+        "URL": "http://www.thride.com",
+        "Dimensions":"1280,1000",
+        "Image":[
+            "img/screens/thride1.jpg",
+            "img/screens/thride2.jpg"
+        ]
+    }
+]

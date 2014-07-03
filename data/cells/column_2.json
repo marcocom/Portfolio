@@ -1,0 +1,60 @@
+[
+
+    {
+        "CellType" : "b",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "TOYOTA.COM REDESIGN 2006",
+        "Client": "Saatchi & Saatchi, LA",
+        "JobTitle": "UX Designer, Developer",
+        "Article": "Built and architected site-wide navigation system using flash and xml to be instantly updateable for photo, price, and link values. Navs can recieve and validate zipcode information and reflects users current location in site. Support of Omniture user-tracking, and deployment in 3 languages and in kiosk-mode (restricted and simplified) for tradeshows, while laying transparently over any flash element beneath using a tight integration with Javascript and CSS layering. Also updated all sublevel global elements like flash-based Marketing Links, Model Selector, and secure user information forms. Also built and stylized all site-wide loaders.",
+        "URL": "samples/comps/toyota_flashhome.jpg",
+        "Image":[
+            "img/screens/tcom_home_1.jpg",
+            "img/screens/tcom_home_2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "INFINITI.COM REDESIGN 2007",
+        "Client": "The Designory, LA",
+        "JobTitle": "Lead Flash Developer",
+        "Article": "Built and architected site-wide navigation system using flash and xml to be instantly updated for photo, price, and link values. Navs can recieve and validate zipcode information and reflects users current location in site. Support of Omniture user-tracking, and deployment in 3 languages and in kiosk-mode (restricted and simplified) for tradeshows, while laying transparently over any flash element beneath using a tight integration with Javascript and CSS layering. Also updated all sublevel global elements like flash-based Marketing Links, Model Selector, and secure user information forms. Also built and stylized all site-wide loaders.",
+        "URL": "img/comps/infiniti2.jpg",
+        "Image":[
+            "img/screens/infiniti1.jpg",
+            "img/screens/infiniti2.jpg"
+        ]
+    },
+    {
+        "CellType" : "f",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "JC PENNEY",
+        "Client": "CKS Partners / marchFIRST",
+        "JobTitle": "Art Director",
+        "Article": "A project under the Creative Direction of Johanna Clark and Tim Kain, this client required a targeted promotion that could synergize their years of in-house research in their market and customer base, their usability testing, and their in-house technical resources and rebuild the JCPenney online identity. Assimilating the available data and test-results challenged the team with frequent design changes to account for the client?s in-house user testing results during development of the site. The final design used a very light and fast navigation system that allowed wide variability per section to allow for more of the bandwidth consumption to the larger and higher quality photographs and to enable the technical capability of the sophisticated custom software package they had developed in house. I was involved in look and feel establishment and concept for the site, with special attention to the women?s, men?s, and Features section of this very large website.",
+        "URL": "",
+        "Image":[
+            "samples/comps/jcpenney1.jpg",
+            "samples/comps/jcpenney2.jpg",
+            "samples/comps/jcpenney3.jpg"
+        ]
+    },
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "REDBULL SOAP-RACE",
+        "Client": "Kastner & Partners",
+        "JobTitle": "Front-End Developer",
+        "Article": "Using a hybrid execution of Raphael.js, JQuery, and Flash for incompatible browsers, this site required the ability to drag and explore in any direction limitlessly.",
+        "URL": "samples/html5/redbull",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/redbull.jpg"
+        ]
+    }
+]

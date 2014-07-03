@@ -1,0 +1,42 @@
+
+.home-content {
+
+  .content {
+    .main-logo {
+      #logo {
+        width: 70px;
+        left: 10px;
+      }
+      .text-title{
+        left:88px;
+        top:55px;
+      }
+    }
+    #slider-container{
+      top: 30px;
+    }
+  }
+}
+
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+}
+
+.flex-control-nav {
+  li {
+    margin: 0 6px;
+  }
+}
+
+.people-content{
+  width:100%;
+  height:1400px;
+  .content{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    display:block;
+  }
+}
+

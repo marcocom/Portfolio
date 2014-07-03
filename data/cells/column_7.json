@@ -1,0 +1,99 @@
+[
+
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "HOLLAND CASINO",
+        "Client": "Quince Amsterdam",
+        "JobTitle": "Art Director, Flash Dev",
+        "Article": "The GUESS n' WIN kioske was designed to attract casino clients to participate in the Highlights-campaign's guess-the-number game. As part of a fancy molded installation box, it was topped with a giant champagne glass, filled with pearls, to guess the total number. Designed and built by me in Flash, with WebServices secure backend and card-reader functionality.",
+        "URL": "samples/comps/RaadnWin3.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/RaadnWin1.jpg",
+            "img/screens/RaadnWin2.jpg",
+            "img/screens/RaadnWin3.jpg",
+            "img/screens/RaadnWin4.jpg",
+            "img/screens/RaadnWin5.jpg"
+        ]
+    },
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "VODAFONE SCAN&WIN",
+        "Client": "Quince Amsterdam",
+        "JobTitle": "Creative Director",
+        "Article": "A retail below-the-line strategy for attracting consumers to participate in promotions and offers, and to give them a central mobile application to manage their information, and current events.",
+        "URL": "samples/comps/vodafone2.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/vodafone1.jpg",
+            "img/screens/vodafone2.jpg",
+            "img/screens/vodafone3.jpg",
+            "img/screens/vodafone4.jpg",
+            "img/screens/vodafone5.jpg",
+            "img/screens/vodafone6.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TOYOTA FINDYOURMATCH",
+        "Client": "Saatchi & Saatchi / RAPP",
+        "JobTitle": "Creative Technologist",
+        "Article": "This site required enterprise-level deployment demanding complete dynamic data from multiple sources, robust tracking, deep-linking, and high fidelity images in a 3D environment",
+        "URL": "http://www.toyota.com/findyourmatch",
+        "Dimensions":"1080,720",
+        "Image":[
+            "img/screens/findyourmatch.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "THE SECRET WORLD",
+        "Client": "Ayzenberg Group",
+        "JobTitle": "Creative Technologist",
+        "Article": "A facebook-data driven game-site. I was brought in with a team of top-shelf developers to produce this site in a very short amount of time using a PureMVC architecture.",
+        "URL": "http://www.thesecretworld.com/",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/secretworld.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TOYOTA PRIUS HSD",
+        "Client": "Saatchi & Saatchi HSD",
+        "JobTitle": "Multimedia Designer",
+        "Article": "Created to introduce the Prius, and a whole new kind of car, our goal was to create a surreal city of blue sky and information about the new Prius. Using parallax and filtered 3D cell-shaded objects, this site was a success and helped to start the green movement.",
+        "URL": "/samples/flash/hsd/index.html",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/hsd1.jpg",
+            "img/screens/hsd2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "DODGE SRT",
+        "Client": "Admit One Productions",
+        "JobTitle": "Creative Director",
+        "Article": "Using a cutting-edge driving-simulator from Big Block LA that creates CGI-rendered sequences with live physics, as well as the Flame-editing of Chris Nolert, we created a motion-graphics heavy introduction that leads into an SRT-centric website.",
+        "URL": "samples/html5/dodge_pitch",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/dodge_srt1.jpg",
+            "img/screens/dodge_srt2.jpg",
+            "img/screens/dodge_srt3.jpg"
+        ]
+    }
+]

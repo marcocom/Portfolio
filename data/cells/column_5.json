@@ -1,0 +1,63 @@
+[
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "D.W.DRUMS KITBUILDER",
+        "Client": "Code Particle",
+        "JobTitle": "Front-End Developer",
+        "Article": "A pure javascript solution, this site runs entirely on JSON data, with an ASP Classic solution for saving graphics for social-sharing. This has drag-and-drop and persistent dynamic logic with bookmarking anywhere ",
+        "URL": "www.dwdrums.com/kitbuilder",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/dwdrums1.jpg",
+            "img/screens/dwdrums2.jpg",
+            "img/screens/dwdrums3.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "BANK OF AMERICA",
+        "Client": "Rapp",
+        "JobTitle": "Designer, Flash Animation",
+        "Article": "Rapp/Collins hired me to create a flash user-demo of how to properly use and make sense of the SiteKey security functions and enrollment requirements.",
+        "URL": "samples/flash/bankamerica/sitekey.html",
+        "Dimensions":"1024,600",
+        "Image":[
+            "img/screens/bankamerica1.jpg",
+            "img/screens/bankamerica2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "MIAMI DOLPHINS AQUAVISION",
+        "Client": "Foundation 5",
+        "JobTitle": "Flash Developer",
+        "Article": "This was a Flash Media Server project, requiring integration into IRC chat channels, and Broadcaster/Audience inter-operabililty",
+        "URL": "samples/flash/aquavision/vplayer_container.html",
+        "Dimensions":"920,455",
+        "Image":[
+            "img/screens/aquavision1.jpg",
+            "img/screens/aquavision2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TOYOTA LANDCRUISER",
+        "Client": "Saatchi & Saatchi LA",
+        "JobTitle": "Flash Developer",
+        "Article": "Concepted and animated in team with print art director, Rhasaan Jackson under assocCreativeDir, Scott Muckenthaler. The substance of this project is clearly in its written content by John Bollow, as well. (winner:Belding Bowl, Cannes Cyberlion, OneShow) ",
+        "URL": "samples/flash/landcruiser/index.html",
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/landcruiser_heritage_1.jpg",
+            "img/screens/landcruiser_heritage_2.jpg"
+        ]
+    }
+]

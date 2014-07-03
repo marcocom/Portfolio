@@ -1,0 +1,66 @@
+[
+
+    {
+        "CellType" : "f",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "DELUXE",
+        "Client": "CKS Partners / marchFIRST",
+        "JobTitle": "Art Director",
+        "Article": "A very different design developed under the Art Direction of Marcia Linwood. The eDeluxe project was built and designed exclusively for a European marketplace that connected users in buying and selling of goods in much the way that Ebay does in the USA however targeted to a higher level of transaction like collectible cars, houses and Art. The look and feel of the site promote a sense of refined taste and elegance in a way that our studies of European markets tended to dictate in our research and discovery.  User Interface principles had to be heavily relied upon yet be tastefully concealed within the folds of the design for thorough server-side customizability.",
+        "URL": "",
+        "Image":[
+            "samples/comps/deluxe1.jpg",
+            "samples/comps/deluxe2.jpg",
+            "samples/comps/deluxe3.jpg"
+        ]
+    },
+
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TIVO.COM",
+        "Client": "CKS Partners / marchFIRST, SF",
+        "JobTitle": "Lead Flash Developer",
+        "Article": "TGIFridays looked to Deutsch LA to redesign and reinvigorate their online site and menu/information architecture.  My role was in the creation of the Homepage, Drinks section, and dynamic flash menu and image throughout the site with a development schedule of two weeks. The timeline required an experienced sure-hand on the server-side and DHTML provided by Kish Hiranand, and design by Todd Swaim.",
+        "URL": "samples/flash/tivo/home/index.html",
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/tivo1.jpg",
+            "img/screens/tivo2.jpg",
+            "img/screens/tivo3.jpg"
+        ]
+    },
+
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "LEVIS 25YR ANTHOLOGY",
+        "Client": "Foote,Cone & Belding",
+        "JobTitle": "Designer, Flash Animator",
+        "Article": "A touch-screen and web-based display of all Levi's ads since FCB's awarding of the account, as well as metric result information.",
+        "URL": "samples/flash/levis/index.html",
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/levis1.jpg"
+        ]
+    },
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "WILLIAMS-SONOMA",
+        "Client": "U.S.Web / marchFIRST",
+        "JobTitle": "Jr. Art Director",
+        "Article": "winner, CommArts Award. Creative Direction by Tim Kain, This project taught me about the power of strong photography, and then designing around that with clean effeminate elegance and light colors.",
+        "URL": "samples/comps/williams-sonoma2.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/wsonoma1.jpg",
+            "img/screens/wsonoma2.jpg",
+            "img/screens/wsonoma3.jpg"
+        ]
+    }
+]

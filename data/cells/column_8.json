@@ -1,0 +1,75 @@
+[
+
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "STREAMING 360 VIDEO",
+        "Client": "Wemersive",
+        "JobTitle": "Front-End Developer",
+        "Article": "A Video-360 execution that I was required to build in 3 different platforms; HTML, Flash, and HaxeNME for Android.",
+        "URL": "samples/html5/spin",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/wemersive1.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "BECK, HELLO AGAIN",
+        "Client": "Wemersive, 360Heros",
+        "JobTitle": "Front-End Developer",
+        "Article": "A Video-360 execution built in Flash using pre-loading with multiple camera-source assets and dynamic audio positioning. A technology later improved with streaming.",
+        "URL": "http://www.hello-again.com/beck360/main/beck360.html",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/beck360.jpg"
+        ]
+    },
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "HTC - THE SCORE",
+        "Client": "Quince Amsterdam",
+        "JobTitle": "Front-End Developer",
+        "Article": "The Score is a worldwide campaign to wager on the winner of the EUFA soccer matches, and to entice retail sales-people to keep a good relationship with HTC, its latest products, and to promote them to consumers. Built on Twitter Bootstrap and PHP",
+        "URL": "samples/comps/htc_the_score1.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/htc_the_score1.jpg",
+            "img/screens/htc_the_score2.jpg",
+            "img/screens/htc_the_score3.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "ORACLE INSIGHT",
+        "Client": "Quince, Amsterdam",
+        "JobTitle": "Creative Director",
+        "Article": "A presentation piece enabling Oracle sales people to discuss data-modeling without the mind-numbingly bad diagrams usually used.",
+        "URL": "samples/comps/oracle1.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/oracle1.jpg"
+        ]
+    },
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "HTC PRO",
+        "Client": "Quince, Amsterdam",
+        "JobTitle": "Art Director",
+        "Article": "A mobile application with accompanying website using shared assets, and built on an outdated Java framework. Understanding Retina resolution graphics was essential to make this work.",
+        "URL": "samples/comps/htc_pro.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/htc_pro.jpg"
+        ]
+    }
+]

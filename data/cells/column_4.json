@@ -1,0 +1,64 @@
+[
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "FUGOO TOUCH KIOSKE",
+        "Client": "FuHu / Mitsubishi, Tokyo",
+        "JobTitle": "Flash Developer",
+        "Article": "Challenged to make a demo for CES in 3 days that showcased the amazing precision of the touch-sensitive PrecisePoint screen. Flash allows me to breakdown the different mouse events to allow dragging and selecting items to get rather tactile and instinctive.",
+        "URL": "samples/flash/fugoo/demo.html",
+        "Dimensions":"1024,600",
+        "Image":[
+            "img/screens/fugoo1.jpg",
+            "img/screens/fugoo2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "U.S. ARMY TOUCH NAVIGATOR",
+        "Client": "Ignited, LA",
+        "JobTitle": "Flash Development",
+        "Article": "My first large-scale dynamic 3D project, a 3D wall of dynamic images and videos that could be sorted, searched, saved and explored further in terms of compensation, requirements, and soldier testament videos.",
+        "URL": "samples/flash/usarmy/demo.html",
+        "Dimensions":"1024,600",
+        "Image":[
+            "img/screens/usarmy1.jpg",
+            "img/screens/usarmy2.jpg"
+        ]
+    },
+    {
+        "CellType" : "f",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "RITEPRO P.I.M.",
+        "Client": "QuadRite",
+        "JobTitle": "UI Designer, consultant",
+        "Article": "A proprietary web application for Product Data Management from Hewlett-Packard. The look needed to be very light and fast, with a design that could maintain integrity across all browser platforms including Unix and Solaris, and could also scale to encompass database returns of hundreds of rows and up to 20 columns in spread-sheet format. The user required that information be completely customizable and cross-reference able, that the sites layout and options and design be dynamically formable to a user?s security clearance through a comprehensive  but usable backend administrative interface as well, and that the design be future-scaleable to encompass stage-two and stage-three expansions to the application.  A thorough test-bed and use-case scenario evaluation process was required to develop this interface, which I defined through a concise needs-assessment worksheet that the client was able to fill-out on their own time and thereby describe their user for me.",
+        "URL": "",
+        "Image":[
+            "samples/comps/quadrite1.jpg",
+            "samples/comps/quadrite2.jpg",
+            "samples/comps/quadrite3.jpg"
+        ]
+    },
+    {
+        "CellType" : "f",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "CALL OF DUTY:ELITE",
+        "Client": "Activision, Code Particle",
+        "JobTitle": "Front-End Developer",
+        "Article": "Very complex Java SpringMVC front-end. I did javascript/CSS requiring Ubuntu / git / Jira / Atlassian and heavy quality-assurance coordination.",
+        "URL": "samples/comps/cod_elite1.jpg",
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/cod_elite1.jpg",
+            "img/screens/cod_elite2.jpg",
+            "img/screens/cod_elite3.jpg",
+            "img/screens/cod_elite4.jpg"
+        ]
+    }
+]
