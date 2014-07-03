@@ -309,27 +309,4 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
 
     </body>
 </html>
-<?php
-function getIdFromUrl($url)
-{
-    $url = preg_replace('/^https:\/\/www.facebook.com/', '', $url);
-    $pos = strrpos($url, '/');
-    if ($pos === false)
-    {
-        return false;
-    }
 
-    $id = trim(substr($url, $pos));
-    if(stripos($id,'?') > 0){
-        $id = trim(substr($id,0,stripos($id,'?')));
-    }
-    if ( empty($id) )
-    {
-        return false;
-    }
-
-
-
-    return $id;
-}
-?>

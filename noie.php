@@ -20,18 +20,13 @@
         th,
         label,
         input,
-        li,
-        .datepicker-dropdown {
-        //font-family:                      $fontFamilyBase;
+        li {
             font-family: 'Helvetica', 'Arial', sans-serif;
             color:#5a5a5a;
             font-weight:200;
 
             -ms-word-break: break-word;
             word-break: break-word;
-
-        // Non standard for webkit
-        //word-break: break-word;
 
             -webkit-hyphens: auto;
             -moz-hyphens: auto;
@@ -44,24 +39,6 @@
         {
             text-decoration:none;
             line-height:125%;
-        }
-        h1{
-            font-size:300%;
-        }
-        h2{
-            font-size:250%;
-        }
-        h3{
-            font-size:200%;
-        }
-        h4{
-            font-size:150%;
-        }
-        h5{
-            font-size:100%;
-        }
-        h6{
-            font-size:75%;
         }
         em{
             text-emphasis-style:              none;
@@ -139,65 +116,6 @@
             width: 800px;
         }
 
-        .info{
-            display:block;
-            margin: 20px auto 5px;
-            width: 680px;
-            z-index:2;
-            position: relative;
-        }
-
-        .info ul li{
-            float:left;
-            background:#E4E4E4;
-            width:300px;
-            height:auto;
-            min-height:270px;
-            margin-right:20px;
-            padding:0 5px 5px 10px;
-
-
-            opacity:0.9;
-
-            filter:alpha(opacity=90);
-
-            /* works for IE 8. */
-            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-
-        }
-        .info ul li h3{
-            font-size: 150%;
-            margin: 10px 0 0 0;
-        }
-        .info ul li .address{
-            display:block;
-            margin: 10px 0;
-        }
-        .info ul li .address h5{
-            color:black;
-            line-height: 1.2em;
-            margin: 0;
-
-        }
-        .info ul li .address a{
-            font-weight:400;
-            color:#0172b4;
-        }
-
-        .info ul li a h5{
-            margin: 0;
-            line-height: 1em;
-        }
-
-        .info ul li .legal-info{
-            margin-top:10px;
-        }
-        .info ul li .legal-info h6{
-            color:#5a5a5a;
-            line-height: 1.5em;
-            word-break:auto;
-            margin:0;
-        }
 
     </style>
 </head>
