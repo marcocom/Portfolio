@@ -211,51 +211,6 @@
             <h5><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Click here to get started >></a></h5>
         </div></div>
 
-        <!--div class="info">
-            <ul>
-                <li class="contact-section" id="contact-amsterdam">
-                    <h3>Quince Amsterdam B.V.</h3>
-                    <a class="address" target="_blank" href="https://maps.google.nl/maps?q=Assumburg+73+1081+GB+Amsterdam+the+Netherlands&daddr=Assumburg+73,+1081+GB+Amsterdam&hnear=0x47c60a0b845ef23b:0x79090fe2330b7586,Assumburg+73,+1081+GB+Amsterdam&gl=nl&t=h&z=16">
-                        <h5>Assumburg 73</h5>
-                        <h5>1081 GB Amsterdam</h5>
-                        <h5>The Netherlands</h5><img src="img/googlemaps_pin.png">
-
-                    </a>
-                    <a href="tel:0031203471000"><h5>T +31 (0)20 347 1000</h5></a>
-                    <a href="tel:0031203471005"><h5>F +31 (0)20 347 1005</h5></a>
-                    <a href="mailto:info@quince.nl"><h5>info@quince.nl</h5></a>
-
-                    <div class="legal-info">
-                        <h6>Chamber of commerce: 30180491</h6>
-                        <h6>VAT number: 810801152.B.01</h6>
-                        <h6>IBAN: NL15DEUT0319822893 </h6>
-                        <h6>Swift: DEUTNL2N</h6>
-                        <h6><a href="assets/pdf/Quince_Terms_and_Conditions.pdf">Terms and conditions</a></h6>
-                    </div>
-                </li>
-                <li class="contact-section" id="contact-budapest">
-                    <h3>Quince Hungary Kft.</h3>
-                    <a class="address" target="_blank" href="https://maps.google.nl/maps?q=Marcius+15.+t%C3%A9r+1+1056+Budapest+Hungary&hl=en&ie=UTF8&sll=47.737938,18.557968&sspn=0.53613,1.338959&t=h&gl=nl&hnear=1056+Budapest,+V.+ker%C3%BClet,+M%C3%A1rcius+15.+t%C3%A9r+1,+Hungary&z=17">
-                        <h5>Marcius 15. tér 1 [4th floor]</h5>
-                        <h5>1056 Budapest</h5>
-                        <h5>Hungary</h5><img src="img/googlemaps_pin.png">
-                    </a>
-
-                    <a href="tel:003618149694"><h5>T +36 1 814 9694</h5></a>
-                    <a href="mailto:info@quince.hu"><h5>info@quince.hu</h5></a>
-
-                    <div class="legal-info">
-                        <h6>Chamber of commerce: 01-09-863566</h6>
-                        <h6>VAT number: 13597986-2-41</h6>
-                        <h6>Unicredit Bank Zrt.</h6>
-                        <h6>IBAN: HU621091800100000026-40920010</h6>
-                        <h6>Swift: BACXHUHB</h6>
-                        <h6><a href="assets/pdf/Quince_Terms_and_Conditions.pdf">Terms and conditions</a></h6>
-                    </div>
-                </li>
-                <div class="clear"></div>
-            </ul>
-        </div-->
         <div class="children"><img src="img/children.jpg" ></div>
     </div>
 </body>
