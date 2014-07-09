@@ -175,7 +175,7 @@ body{
         width: 100%;
         position: relative;
         top: 70px;
-        left: 180px;
+        left: 40px;
         float: left;
         h3{
           text-shadow:$text-shadow;
@@ -184,7 +184,7 @@ body{
           position: absolute;
           bottom:0;
           font-weight:400;
-          color:#000;
+          color:#FFF;
         }
         h4{
           display:block;
@@ -192,7 +192,8 @@ body{
           position:absolute;
           bottom:-16px;
           font-weight:200;
-          color:black;
+          color:#FFF;
+          text-shadow:$text-shadow;
         }
       }
     }
@@ -285,8 +286,8 @@ body{
         display:inline-block;
         float:left;
         position:relative;
-        width:1920px;
-        height:1200px;
+        width:1900px;
+        height:1600px;
         //
         //      background:transparent url("../img/backgrounds/bg9.jpg") 0 0 no-repeat; width:1920px;
         &.normal{
@@ -747,6 +748,11 @@ body{
         z-index:0;
       }
     }
+    .on-state{
+      .cta-text{
+        top: 60%;
+      }
+    }
   }
   .cell-g{ // LONG-IMAGE w/ NO CLICKTHRU
     width:$cell-full-width;
@@ -1049,27 +1055,15 @@ body{
   #slider-container .scroller{
     //margin-top:10%;
     .mosaic-container li.column{
-//      width:$cell-total-short-width;
       width:$cell-total-med-width;
     }
   }
 }
 
-@media (max-height:$mosaic-response-height-mobile) and (max-width:$screen-xs){
+@media (min-height:$mosaic-response-height-mobile) and (max-height:$mosaic-response-height-max){
   #slider-container .scroller{
      .mosaic-container li.column{
        width:$cell-total-short-width;
-
-//       width:$cell-total-med-width;
-     }
-   }
-}
-@media (min-height:$mosaic-response-height-mobile) and (max-width:$screen-xs){
-  #slider-container .scroller{
-     margin-top:20%;
-     .mosaic-container li.column{
-//       width:$cell-total-short-width;
-       width:$cell-total-med-width;
      }
    }
 }

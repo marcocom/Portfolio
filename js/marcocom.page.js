@@ -78,7 +78,7 @@
 
             this.initRouter();
 
-            //this.initBackground();
+            this.initBackground();
         },
 
         initBackground:function(){

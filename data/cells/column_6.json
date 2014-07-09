@@ -1,33 +1,21 @@
 [
 
+
     {
-        "CellType" : "b",
+        "CellType" : "f",
         "Medium": "html",
         "Ref":"0",
-        "Title": "NISSAN SHIFT_2.0",
-        "Client": "TBWA / The Designory",
-        "JobTitle": "Flash Developer",
-        "Article": "SHIFT_2.0 was a TBWA/Chiat-Day campaign that sought to redefine the Nissan brand toward consumer-driven engineering . Concepted by me, under the creative direction of Amy Ivey and Tom Weisz, this project was targeted for broadband users and streams a seemless integration of multiple transparent FLV videos overlayed to meld the different Maya3D assets and AfterEffects animations by Ben Black, with fully roto-scoped greenscreen foreground vignettes filmed by PLUM/BEAU productions.",
-        "URL": "samples/flash/shift/base_remote.html",
-        "Dimensions":"1000,740",
+        "Title": "CALL OF DUTY:ELITE",
+        "Client": "Activision, Code Particle",
+        "JobTitle": "Front-End Developer",
+        "Article": "A complex Java SpringMVC front-end, to replace a 2Advanced Flash front-end. I did javascript/CSS in Backbone and underscore, with JqueryEXT classes, in an entirely custom-built framework for speed and extensibility. I introduced and advocated using LESS pre-compiling. The team was comprised of some the brightest minds in the industry, sparing no expense, with luminaries on consultation from Google, Yahoo, and other game-development companies, coordinated through a deep Scrum process and heavy quality-assurance coordination. I was lucky to be on this team, as they needed flash experience, and I used this opportunity to study the latest enterprise-level custom HTML5 methodologies and learn from the best.",
+        "URL": "http://www.callofduty.com/elite",
+        "Dimensions":"1280,720",
         "Image":[
-            "img/screens/shift1.jpg",
-            "img/screens/shift2.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "YO ROTO! CiCi's Pizza",
-        "Client": "Deutsch LA",
-        "JobTitle": "Flash Developer",
-        "Article": "The viral YouTube videos depict an underground hero who works as a sign-spinner for the CiCis pizza company and pulls seemingly impossible gymnastic and break-dance moves and has generated a following.  My role was to create the destination website that is seeded in the endtag of the videos.  The site houses the videos for replay, and also presents the user with a game, inspired by GuitarHero, and a method to challenge their friends for hi-score. Game design and code provided by Fuel, my code interfaced the game with server-side customization code and fused the different sections into a seamless user experience.",
-        "URL": "samples/flash/yoroto/index.html",
-        "Dimensions":"1200,1000",
-        "Image":[
-            "img/screens/yoroto1.jpg",
-            "img/screens/yoroto2.jpg"
+            "img/screens/cod_elite1.jpg",
+            "img/screens/cod_elite2.jpg",
+            "img/screens/cod_elite3.jpg",
+            "img/screens/cod_elite4.jpg"
         ]
     },
     {

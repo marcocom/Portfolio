@@ -6,7 +6,7 @@
         "Ref":"0",
         "Title": "STREAMING 360 VIDEO",
         "Client": "Wemersive",
-        "JobTitle": "Front-End Developer",
+        "JobTitle": "Creative Director, Engineer",
         "Article": "A Video-360 execution that I was required to build in 3 different platforms; HTML, Flash, and HaxeNME for Android.",
         "URL": "samples/html5/spin",
         "Dimensions":"1280,720",
@@ -36,7 +36,7 @@
         "Client": "Quince Amsterdam",
         "JobTitle": "Front-End Developer",
         "Article": "The Score is a worldwide campaign to wager on the winner of the EUFA soccer matches, and to entice retail sales-people to keep a good relationship with HTC, its latest products, and to promote them to consumers. Built on Twitter Bootstrap and PHP",
-        "URL": "samples/comps/htc_the_score1.jpg",
+        "URL": "samples/comps/htc_the_score3.jpg",
         "Dimensions":"1280,720",
         "Image":[
             "img/screens/htc_the_score1.jpg",

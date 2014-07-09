@@ -3,6 +3,36 @@
         "CellType" : "b",
         "Medium": "html",
         "Ref":"0",
+        "Title": "NISSAN SHIFT_2.0",
+        "Client": "TBWA / The Designory",
+        "JobTitle": "Concept, Developer",
+        "Article": "SHIFT_2.0 was a TBWA/Chiat-Day campaign that sought to redefine the Nissan brand toward consumer-driven engineering . Concepted by me, under the creative direction of Amy Ivey and Tom Weisz, this project was targeted for broadband users and streams a seemless integration of multiple transparent FLV videos overlayed to meld the different Maya3D assets and AfterEffects animations by Ben Black, with fully roto-scoped greenscreen foreground vignettes filmed by PLUM/BEAU productions.",
+        "URL": "samples/flash/shift/base_remote.html",
+        "Dimensions":"1000,740",
+        "Image":[
+            "img/screens/shift1.jpg",
+            "img/screens/shift2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "YO ROTO! CiCi's Pizza",
+        "Client": "Deutsch LA",
+        "JobTitle": "Flash Developer",
+        "Article": "The viral YouTube videos depict an underground hero who works as a sign-spinner for the CiCis pizza company and pulls seemingly impossible gymnastic and break-dance moves and has generated a following.  My role was to create the destination website that is seeded in the endtag of the videos.  The site houses the videos for replay, and also presents the user with a game, inspired by GuitarHero, and a method to challenge their friends for hi-score. Game design and code provided by Fuel, my code interfaced the game with server-side customization code and fused the different sections into a seamless user experience.",
+        "URL": "samples/flash/yoroto/index.html",
+        "Dimensions":"1200,1000",
+        "Image":[
+            "img/screens/yoroto1.jpg",
+            "img/screens/yoroto2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
         "Title": "FUGOO TOUCH KIOSKE",
         "Client": "FuHu / Mitsubishi, Tokyo",
         "JobTitle": "Flash Developer",
@@ -20,7 +50,7 @@
         "Ref":"0",
         "Title": "U.S. ARMY TOUCH NAVIGATOR",
         "Client": "Ignited, LA",
-        "JobTitle": "Flash Development",
+        "JobTitle": "Flash Developer",
         "Article": "My first large-scale dynamic 3D project, a 3D wall of dynamic images and videos that could be sorted, searched, saved and explored further in terms of compensation, requirements, and soldier testament videos.",
         "URL": "samples/flash/usarmy/demo.html",
         "Dimensions":"1024,600",
@@ -35,30 +65,13 @@
         "Ref":"0",
         "Title": "RITEPRO P.I.M.",
         "Client": "QuadRite",
-        "JobTitle": "UI Designer, consultant",
-        "Article": "A proprietary web application for Product Data Management from Hewlett-Packard. The look needed to be very light and fast, with a design that could maintain integrity across all browser platforms including Unix and Solaris, and could also scale to encompass database returns of hundreds of rows and up to 20 columns in spread-sheet format. The user required that information be completely customizable and cross-reference able, that the sites layout and options and design be dynamically formable to a user?s security clearance through a comprehensive  but usable backend administrative interface as well, and that the design be future-scaleable to encompass stage-two and stage-three expansions to the application.  A thorough test-bed and use-case scenario evaluation process was required to develop this interface, which I defined through a concise needs-assessment worksheet that the client was able to fill-out on their own time and thereby describe their user for me.",
+        "JobTitle": "UI/UX Designer",
+        "Article": "A proprietary web application for Product Data Management from Hewlett-Packard. The look needed to be very light and fast, with a design that could maintain integrity across all browser platforms including Unix and Solaris, and could also scale to encompass database returns of hundreds of rows and up to 20 columns in spread-sheet format. The user required that information be completely customizable and cross-reference able, that the sites layout and options and design be dynamically generated to a users security clearance through a comprehensive  but usable backend administrative interface as well, and that the design be future-scaleable to encompass stage-two and stage-three expansions to the application. ",
         "URL": "",
         "Image":[
             "samples/comps/quadrite1.jpg",
             "samples/comps/quadrite2.jpg",
             "samples/comps/quadrite3.jpg"
-        ]
-    },
-    {
-        "CellType" : "f",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "CALL OF DUTY:ELITE",
-        "Client": "Activision, Code Particle",
-        "JobTitle": "Front-End Developer",
-        "Article": "Very complex Java SpringMVC front-end. I did javascript/CSS requiring Ubuntu / git / Jira / Atlassian and heavy quality-assurance coordination.",
-        "URL": "samples/comps/cod_elite1.jpg",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/cod_elite1.jpg",
-            "img/screens/cod_elite2.jpg",
-            "img/screens/cod_elite3.jpg",
-            "img/screens/cod_elite4.jpg"
         ]
     }
 ]

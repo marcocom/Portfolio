@@ -3,13 +3,10 @@
 
   .content {
     .main-logo {
+      display:none;
       #logo {
         width: 70px;
         left: 10px;
-      }
-      .text-title{
-        left:88px;
-        top:55px;
       }
     }
     #slider-container{

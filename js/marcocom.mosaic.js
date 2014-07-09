@@ -515,6 +515,7 @@
             }
 
             $m.EventManager.addEventHandler($m.Event.OPEN_CELL, this.onCellClick.bind(this));
+            $m.EventManager.addEventHandler($m.Event.CLOSE_CELL, this.onCellClose.bind(this));
             $m.EventManager.addEventHandler($m.Event.MOSAIC_SCROLL_START, this.closeInfo.bind(this));
 
             $("#slider-container").show();
@@ -562,6 +563,11 @@
             var isMe = e == this;
             if(!isMe && this.opened) this.closeInfo();
         },
+        onCellClose : function(e, target){
+            var isMe = e == this;
+
+//            if(!isMe) this._el.fadeTo(0 , 1);
+        },
 
         onClick : function(e){
 
@@ -593,6 +599,8 @@
         },
 
         closeInfo : function(){
+            $m.EventManager.fireEvent($m.Event.CLOSE_CELL, this);
+
             if(this.opened){
                 this.offContent.removeClass('desaturate');
                 if(this.onContent) this.onContent.css({'top':'100%'});

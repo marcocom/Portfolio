@@ -483,6 +483,7 @@
     Marcocom.Event.DISCLAIMER = "DISCLAIMER";
     Marcocom.Event.CURRENTPAGE = "CURRENTPAGE";
     Marcocom.Event.OPEN_CELL = "OPEN_CELL";
+    Marcocom.Event.CLOSE_CELL = "CLOSE_CELL";
     Marcocom.Event.MOSAIC_SCROLL_START = "MOSAIC_SCROLL_START";
     Marcocom.Event.MOSAIC_SCROLL_X = "MOSAIC_SCROLL_X";
     Marcocom.Event.MOSAIC_SCROLL_END = "MOSAIC_SCROLL_END";

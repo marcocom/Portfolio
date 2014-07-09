@@ -47,7 +47,7 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
 
             <div class="content">
                 <div class="main-logo">
-                    <img id="logo" src="img/logo.png">
+                    <!--img id="logo" src="img/logo.png"-->
                     <div class="text-title">
                         <h3>marco comparato</h3>
                         <h4>interactive creations</h4>
@@ -57,7 +57,7 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                     <div class="scroller">
                         <div class="cta-msg">
                             <!--                                <h5>--><?// if (preg_match ('/(?i)msie 8/', $_SERVER['HTTP_USER_AGENT'])): ?><!--SCROLL TO --><?// endif ?><!--EXPLORE OUR WORLD<em></em></h5>-->
-                            <h5>SCROLL OR DRAG TO EXPLORE<b>>></b></h5>
+                            <!--h5>SCROLL OR DRAG TO EXPLORE<b>>></b></h5-->
                         </div>
                         <div class="homepage">
                             <div class="intro-block">
@@ -81,8 +81,8 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                 </div>
                 <div class="backgrounds">
                     <div class="tiles">
-                        <div class="tile normal"><img src="img/skies/sky1.jpg"></div>
-                        <div class="tile flipped"><img src="img/skies/sky1.jpg"></div>
+                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,10 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                         <div class="article">
                             <h6><%= Article %></h6>
                         </div>
-                        
+
+                        <% if(URL.length > 0){ %>
+                            <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
+                        <% } %>
                     </div>
                 </div>
                 <% } %>
@@ -304,8 +307,8 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
         <script>window.jQuery || document.write('<script type="text/javascript" src="js/lib/jquery-1.10.2.js"><\/script>')</script>
 <!--        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
 
-        <script type="text/javascript" src="js/main.js"></script>
-<!--        <script type="text/javascript" src="js/loader.js"></script>-->
+<!--        <script type="text/javascript" src="js/main.js"></script>-->
+        <script type="text/javascript" src="js/loader.js"></script>
 
     </body>
 </html>
