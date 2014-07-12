@@ -36,7 +36,7 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////BASE
     $m.Model.Mosaic = $m.Model.extend({
         _totalDataFiles : 0,
-        _totalPreload : 3,
+        _totalPreload : 1,
         _currentColumn : 0,
         _columns : [],
         _firstLoad : false,
@@ -65,7 +65,7 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
         getCount : function(e){
             this._totalDataFiles = Number(e) - 1;
 
-            this.modifyPreload();
+//            this.modifyPreload();
             this.compileTemplates();
             this.initModel();
             $m.EventManager.addEventHandler($m.Event.MOSAIC_SCROLL_END, this.mosaicScrollHandler.bind(this));
@@ -122,16 +122,19 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
         },
         
         nextModel : function(){
-            var nextup  = (this._currentColumn+=1);
+            var nextup  = (this._currentColumn+1);
 
             $log("NEXTMODEL nextup:"+nextup+" totalpreload:"+this._totalPreload);
 
             if(nextup < this._totalPreload){
+                this._currentColumn = nextup;
                 this.loadJsonFile(nextup);
             } else if(!this._firstLoad){
                 this._firstLoad = true;
                 Marcocom.EventManager.fireEvent(Marcocom.Event.MODEL_COLUMNS_COMPLETE, this);
             } else if(!this._dataFinished){
+
+                this._currentColumn = nextup;
                 this.loadJsonFile(nextup);
             }
         },
@@ -267,8 +270,9 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
 
             var newArr = [];
 
+            $log(">>>>>>>>>>>>>> "+(this._index % 3));
 
-            if(this._index == 0){
+            if(this._index == 0 || this._index % 3 == 0){
                 var firstobj = this.pullAncillaryData("d");
                 firstobj.CellType = "d";
                 if(firstobj.Id) firstobj.Id = '0001';
@@ -279,7 +283,6 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
             for (var k = 0; k < _m.length; k++){
 
                 var cl = _m[k].CellType;
-//                        if(cl == cell_letter) ancil_obj = _m.splice(k, 1)[0];
                 newArr.push(_m[k]);
             }
 

@@ -170,6 +170,13 @@ body{
         position: absolute;
         left: 20px;
       }
+      img.title{
+        width:394px;
+        height:auto;
+        display: block;
+        position: absolute;
+        left:10px;
+      }
       .text-title{
         display: inline-block;
         width: 100%;
@@ -194,6 +201,78 @@ body{
           font-weight:200;
           color:#FFF;
           text-shadow:$text-shadow;
+        }
+      }
+    }
+
+
+    #information-text{
+      display:block;
+      width:100%;
+      height:300px;
+      z-index:1000;
+      position:absolute;
+      top:100%;
+
+      //-webkit-transition:top 1s;
+      //-moz-transition:top 1s;
+      //-ms-transition:top 1s;
+      //-o-transition:top 1s;
+      //transition:top 1s;
+
+
+      .content {
+        display:block;
+        position:absolute;
+        top:0;
+        padding: 0px 5px;
+        background:#FFFFFF;
+        @include box-shadow($div-shadow);
+        @include transition(top 0.5s);
+        @include transition-timing-function(ease-out);
+        .title {
+          font-weight: 800;
+          margin: 5px 0 0 0;
+          color: $gray-dark;
+        }
+        .author {
+
+          @include author-information();
+
+        }
+        .article {
+          //background: transparent url(img/cell-horiz-div.png) no-repeat 0 0;
+          padding: 1px 0 0 0;
+          margin: 1px 0 0 0;
+          overflow: hidden;
+          h6 {
+            margin: 0;
+          }
+          p {
+            font-weight: 200;
+            color: $gray-darker;
+          }
+          a {
+            color: $brand-blue;
+          }
+        }
+        .social {
+
+        }
+        .cta-text {
+          font-weight: 600;
+          color: $brand-blue;
+          //padding:5px 5px 0 5px;
+          padding: 0;
+          position: absolute;
+          display: block;
+          bottom: 0;
+          //left: 5px;
+          font-size: 1.2em;
+
+          &:hover {
+            color: darken($brand-blue, .50);
+          }
         }
       }
     }
@@ -286,7 +365,7 @@ body{
         display:inline-block;
         float:left;
         position:relative;
-        width:1900px;
+        width:1600px;
         height:1600px;
         //
         //      background:transparent url("../img/backgrounds/bg9.jpg") 0 0 no-repeat; width:1920px;
@@ -317,20 +396,21 @@ body{
     right: 20px;
     bottom: 2px;
     text-align:right;
-    z-index: 200;
+    z-index: 10;
     h6{
       //font-size: 8px;
       color:#FFF;
       text-shadow: $text-shadow;
     }
   }
+
 }
 
 #slider-container {
   position: absolute;
   z-index: 1;
-  top: 120px;
-  bottom: 48px;
+  top: 80px;
+//  bottom: 48px;
   left: 0;
   width: 100%;
   height:100%;
@@ -434,10 +514,11 @@ body{
         h5{
           display:block;
           p{
-            line-height: 1em;
+            line-height: 1.2em;
             font-weight:200;
             color:$almostWhite;
             text-shadow:$text-shadow;
+
           }
         }
         hr {

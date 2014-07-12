@@ -47,10 +47,25 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
 
             <div class="content">
                 <div class="main-logo">
-                    <!--img id="logo" src="img/logo.png"-->
+                    <!--img id="logo" src="img/logo.png">
                     <div class="text-title">
                         <h3>marco comparato</h3>
                         <h4>interactive creations</h4>
+                    </div-->
+                    <img class="title" src="img/title.png">
+                </div>
+                <div id="information-text">
+                    <div class="content">
+                        <h2 class="title"></h2>
+                        <h2 class="client"></h2>
+                        <div class="author">
+                            <h3 class="jobtitle"><em></em></h3>
+                        </div>
+                        <div class="article">
+                            <h4></h4>
+                        </div>
+                        <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
+
                     </div>
                 </div>
                 <div id="slider-container">
@@ -307,8 +322,8 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
         <script>window.jQuery || document.write('<script type="text/javascript" src="js/lib/jquery-1.10.2.js"><\/script>')</script>
 <!--        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
 
-<!--        <script type="text/javascript" src="js/main.js"></script>-->
-        <script type="text/javascript" src="js/loader.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+<!--        <script type="text/javascript" src="js/loader.js"></script>-->
 
     </body>
 </html>
