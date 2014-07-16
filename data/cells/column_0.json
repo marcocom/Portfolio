@@ -5,10 +5,12 @@
         "Medium": "html",
         "Ref":"0",
         "Title": "GIRLCOSMETICS",
-        "Client": "Girl Cosmetics",
+        "Client": "Girl Cosmetics 1998",
         "JobTitle": "Flash Animator",
         "Article": "My first freelance Flash 3 project, I was asked to do a design for GirlCosmetics homepage that incorporated 3D objects and flowed into the websites established look and feel. This was before any plug-ins existed to import 3DStudioMAX files. It is pretty raw and a little embarrassing to show but here it is, my first flash piece.",
-        "URL": "samples/flash/girlcosmetics/index.html",
+        "URL": [
+            "samples/flash/girlcosmetics/index.html"
+        ],
         "Dimensions":"600,400",
         "Image":[
             "img/screens/girlcosmetics.jpg"
@@ -19,10 +21,12 @@
         "Medium": "html",
         "Ref":"0",
         "Title": "ADIDAS",
-        "Client": "U.S.Interactive",
+        "Client": "U.S.Interactive 1998",
         "JobTitle": "Production Designer, Animator",
         "Article": "My position was as a flash artist and production designer as support to the Art Direction team. Animated Homepage.",
-        "URL": "samples/flash/adidas/adidas_intro.html",
+        "URL": [
+            "samples/flash/adidas/adidas_intro.html"
+        ],
         "Dimensions":"660,332",
         "Image":[
             "img/screens/adidas1.jpg",
@@ -35,10 +39,12 @@
         "Medium": "html",
         "Ref":"0",
         "Title": "DOCKERS ZEN BLUES",
-        "Client": "CKS Partners / marchFIRST, SF",
+        "Client": "CKS Partners / marchFIRST 2000",
         "JobTitle": "Art Director, Animator",
         "Article": "Levis wanted to reach out to young people of all sexual preference and have a more interactive multimedia content. An idea built further upon again later for other clients like TiVo, this project was to allow the user to create their own flash animation by making choices from a menu system. This allows a more targeted advertisement to the user and gives them control to customize the intro while also writing that data to a database for marketing metrics. (before google)",
-        "URL": "samples/flash/dockers/dockers.html",
+        "URL": [
+            "samples/flash/dockers/dockers.html"
+        ],
         "Dimensions":"530,334",
         "Image":[
             "img/screens/dockers1.jpg",
@@ -50,14 +56,46 @@
         "CellType" : "a",
         "Medium": "html",
         "Ref":"0",
-        "Title": "BIZZED",
+        "Title": "BIZZED 1998",
         "Client": "Citibank Partners",
         "JobTitle": "Production Designer",
         "Article": "Bizzed was famous for paying 2 million dollars for the business.com domain name. A portal site for investors, we used a humanized touch to reach out to the Forrester Research market.",
-        "URL": "",
+        "URL": [""],
         "Dimensions":"",
         "Image":[
             "img/screens/bizzed1.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "SAMSUNG HISTORY",
+        "Client": "Symblaze 1999",
+        "JobTitle": "Flash Developer, Animator",
+        "Article": "Symblaze hired me freelance to put together pitches for them over the summer of 2001.",
+        "URL": ["samples/flash/samsungpitch/index.html"],
+        "Dimensions":"",
+        "Image":[
+            "img/screens/samsung_symblaze1.jpg",
+            "img/screens/samsung_symblaze2.jpg",
+            "img/screens/samsung_symblaze3.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "KENT CIGARETTES",
+        "Client": "Symblaze 1999",
+        "JobTitle": "Flash Developer, Animator",
+        "Article": "Symblaze hired me freelance to put together pitches for them over the summer of 2001.",
+        "URL": ["samples/flash/kentcigarettes/index.html"],
+        "Dimensions":"",
+        "Image":[
+            "img/screens/kentcigarettes1.jpg",
+            "img/screens/kentcigarettes2.jpg",
+            "img/screens/kentcigarettes3.jpg"
         ]
     }
 ]

@@ -1,60 +1,153 @@
 [
 
     {
-        "CellType" : "b",
-        "Medium": "img",
-        "Ref":"0",
-        "Title": "TOYOTA.COM REDESIGN 2006",
-        "Client": "Saatchi & Saatchi, LA",
-        "JobTitle": "UX Designer, Developer",
-        "Article": "Built and architected site-wide navigation system using flash and xml to be instantly updateable for photo, price, and link values. Navs can recieve and validate zipcode information and reflects users current location in site. Support of Omniture user-tracking, and deployment in 3 languages and in kiosk-mode (restricted and simplified) for tradeshows, while laying transparently over any flash element beneath using a tight integration with Javascript and CSS layering. Also updated all sublevel global elements like flash-based Marketing Links, Model Selector, and secure user information forms. Also built and stylized all site-wide loaders.",
-        "URL": "samples/comps/toyota_flashhome.jpg",
-        "Image":[
-            "img/screens/tcom_home_1.jpg",
-            "img/screens/tcom_home_2.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "img",
-        "Ref":"0",
-        "Title": "INFINITI.COM REDESIGN 2007",
-        "Client": "The Designory, LA",
-        "JobTitle": "Lead Flash Developer",
-        "Article": "Built and architected site-wide navigation system using flash and xml to be instantly updated for photo, price, and link values. Navs can recieve and validate zipcode information and reflects users current location in site. Support of Omniture user-tracking, and deployment in 3 languages and in kiosk-mode (restricted and simplified) for tradeshows, while laying transparently over any flash element beneath using a tight integration with Javascript and CSS layering. Also updated all sublevel global elements like flash-based Marketing Links, Model Selector, and secure user information forms. Also built and stylized all site-wide loaders.",
-        "URL": "img/comps/infiniti2.jpg",
-        "Image":[
-            "img/screens/infiniti1.jpg",
-            "img/screens/infiniti2.jpg"
-        ]
-    },
-    {
         "CellType" : "f",
         "Medium": "img",
         "Ref":"0",
-        "Title": "JC PENNEY",
-        "Client": "CKS Partners / marchFIRST",
-        "JobTitle": "Art Director",
-        "Article": "A project under the Creative Direction of Johanna Clark and Tim Kain, this client required a targeted promotion that could synergize their years of in-house research in their market and customer base, their usability testing, and their in-house technical resources and rebuild the JCPenney online identity. Assimilating the available data and test-results challenged the team with frequent design changes to account for the client?s in-house user testing results during development of the site. The final design used a very light and fast navigation system that allowed wide variability per section to allow for more of the bandwidth consumption to the larger and higher quality photographs and to enable the technical capability of the sophisticated custom software package they had developed in house. I was involved in look and feel establishment and concept for the site, with special attention to the women?s, men?s, and Features section of this very large website.",
-        "URL": "",
+        "Title": "SAN DIEGO REALTORS",
+        "Client": "iStrategy 2002",
+        "JobTitle": "Creative Director",
+        "Article": "A collection of projects delivered to San Diego's premier brokers, through iStrategy, where we had created the first MLS data-mining logic ever, built by the brilliant wunderkind, Karl Garske. Each project had to be served on a custom framework using the ancient 'microsoft web classes' methodology. very inflexible, but I am proud of what we achieved.",
+        "URL": [""],
+        "Dimensions":"1024,768",
         "Image":[
-            "samples/comps/jcpenney1.jpg",
-            "samples/comps/jcpenney2.jpg",
-            "samples/comps/jcpenney3.jpg"
+            "samples/comps/jillbranch1.jpg",
+            "samples/comps/jillbranch2.jpg",
+            "samples/comps/jillbranch3.jpg",
+            "samples/comps/jillbranch4.jpg",
+            "samples/comps/abrizolis1.jpg",
+            "samples/comps/abrizolis2.jpg",
+            "samples/comps/abrizolis3.jpg",
+            "samples/comps/cielo1.jpg",
+            "samples/comps/cielo2.jpg"
+        ]
+    },
+
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "CAMRY PRELAUNCH",
+        "Client": "Saatchi & Saatchi 2006",
+        "JobTitle": "Concept, Flash Developer",
+        "Article": "Displaying a collection of images in a new way is always a fun project. The key is to let the photography dictate to you, through its aesthetic, how to best transition. Custom code is necessary.",
+        "URL": [
+            "samples/comps/camry_prelaunch1.jpg",
+            "samples/comps/camry_prelaunch2.jpg",
+            "samples/comps/camry_prelaunch3.jpg"
+        ],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/camry_prelaunch1.jpg",
+            "img/screens/camry_prelaunch2.jpg",
+            "img/screens/camry_prelaunch3.jpg"
         ]
     },
     {
-        "CellType" : "a",
+        "CellType" : "b",
         "Medium": "html",
         "Ref":"0",
-        "Title": "REDBULL SOAP-RACE",
-        "Client": "Kastner & Partners",
-        "JobTitle": "Front-End Developer",
-        "Article": "Using a hybrid execution of Raphael.js, JQuery, and Flash for incompatible browsers, this site required the ability to drag and explore in any direction limitlessly.",
-        "URL": "samples/html5/redbull",
-        "Dimensions":"1280,720",
+        "Title": "ADOMO",
+        "Client": "Gruppo ITA Italy 2002",
+        "JobTitle": "Creative Director",
+        "Article": "This project was done for an italian marketing company that decided to hire a kid out of San Francisco to give them a look. I enjoy how designs can break through communication barriers during discovery.",
+        "URL": [
+            "samples/comps/adomo1.jpg",
+            "samples/comps/adomo2.jpg"
+        ],
+        "Dimensions":"1024,768",
         "Image":[
-            "img/screens/redbull.jpg"
+            "img/screens/adomo1.jpg",
+            "img/screens/adomo2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "NITTO TIRES",
+        "Client": "CHOICE COMMUNICATIONS 2002",
+        "JobTitle": "Flash Animator, Developer",
+        "Article": "If you can get past the bad design elements, there was a neat technical challenge in building this configurator. All values carried over to a flash multiplayer-game that I cannot run anymore.",
+        "URL": [
+            "samples/flash/nitto"
+        ],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/nitto1.jpg",
+            "img/screens/nitto2.jpg",
+            "img/screens/nitto3.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "WHY TUNDRA",
+        "Client": "Saatchi & Saatchi 2008",
+        "JobTitle": "Flash Developer",
+        "Article": "This project is showcased due to the very fast turnaround that it required, one week. Requirements included video encoding, editing, approval changes, and SEO tracking.",
+        "URL": [
+            "samples/flash/whytundra"
+        ],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/whytundra1.jpg",
+            "img/screens/whytundra2.jpg",
+            "img/screens/whytundra3.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "INFINITI SUMMER",
+        "Client": "The Designory 2007",
+        "JobTitle": "Flash Developer",
+        "Article": "I originally invented the online-360 car-configurator, which is too complex to showcase here, but this project was when i first came up with the core idea for it using preloaded images.",
+        "URL": [
+            "samples/flash/infiniti_paintsplash"
+        ],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/infiniti_paint1.jpg",
+            "img/screens/infiniti_paint2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "SATURN HOMEPAGE",
+        "Client": "Deutsch 2008",
+        "JobTitle": "Art Director, Animator",
+        "Article": "A car company's homepage needs to be very small and light, since it can be hit by hundreds of thousands of users concurrently. This animation managed to deliver alot of content in under 1MB, sequentially loaded.",
+        "URL": [
+            "samples/flash/saturn"
+        ],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/saturn1.jpg",
+            "img/screens/saturn2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TACOMA",
+        "Client": "Saatchi & Saatchi 2004",
+        "JobTitle": "Flash Animator, Developer",
+        "Article": "In 2004, there was very little in the way of real streaming video on the web. Toyota challenged me with making it so, none-the-less. For its time, this was a big deal.",
+        "URL": [
+            "samples/flash/tacoma/xrunner.html",
+            "samples/flash/tacoma/power.html"
+        ],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/tacoma1.jpg",
+            "img/screens/tacoma2.jpg"
         ]
     }
+
 ]

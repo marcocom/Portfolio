@@ -108,23 +108,11 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
         },
         
         initModel : function(){
-            $log("-------------------------MODEL MOSAIC INIT-----------------------------");
-
-//            this.components.Models.CellModel = Backbone.Model.extend({});
-//            this.components.Collections.Column = Backbone.Collection.extend({
-//                model: this.components.Models.CellModel,
-//                url: "../data/column_0.json",
-//                initialize: function(){
-//                    //$log("JSON INIT:"+this.url);
-//                }
-//            });
             this.loadJsonFile(this._currentColumn);
         },
         
         nextModel : function(){
             var nextup  = (this._currentColumn+1);
-
-            $log("NEXTMODEL nextup:"+nextup+" totalpreload:"+this._totalPreload);
 
             if(nextup < this._totalPreload){
                 this._currentColumn = nextup;
@@ -142,9 +130,6 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
         loadJsonFile : function(indexnum){
             var nextInverted = this._totalDataFiles - indexnum;
             var assetUrl = this._directory+"column_"+nextInverted+".json";
-            $log("LOAD JSON:"+nextInverted+" index:"+indexnum+" asset:"+assetUrl);
-
-
             if(nextInverted >= 0) {
                 Marcocom.EventManager.fireEvent(Marcocom.Event.MODEL_COLUMN_LOADING , this);
                 $.ajax({
@@ -206,7 +191,6 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
         initialize: function(opt){
             this.on("change:Viewed", function(model){
                 var name = model.get("Viewed");
-                $log("Changed Viewed: " + name );
             });
 
             this.on('invalid', function(model, error) {
@@ -240,9 +224,6 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
         },
 
         initModel : function(_m){
-            $log("-------------------------MODEL COLUMN INIT-----------------------------:"+this._style);
-
-
 
             var columnCollection = Backbone.Collection.extend({
                 model: $m.Model.cellModel
@@ -270,14 +251,11 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
 
             var newArr = [];
 
-            $log(">>>>>>>>>>>>>> "+(this._index % 3));
-
             if(this._index == 0 || this._index % 3 == 0){
                 var firstobj = this.pullAncillaryData("d");
                 firstobj.CellType = "d";
                 if(firstobj.Id) firstobj.Id = '0001';
                 newArr.push(firstobj);
-                //$log("INDEX ZERO:", firstobj, newArr);
             }
 
             for (var k = 0; k < _m.length; k++){
@@ -285,34 +263,6 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
                 var cl = _m[k].CellType;
                 newArr.push(_m[k]);
             }
-
-//            for(var i = 0; i < pattern.length; i++){
-//
-//                var ancil_obj = {};
-//                var cell_letter = pattern[i];
-//                var uId = "0" + this._index.toString() + i.toString();
-//
-//                if($.inArray(cell_letter, $m.AncillaryLetters) > -1){ //insert ancillary object when pattern calls for it. (not CMS fed)
-//                    ancil_obj = this.pullAncillaryData(cell_letter);
-//                    if(ancil_obj)ancil_obj.CellType = cell_letter;
-//
-//                } else {
-//                    for (var k = 0; k < _m.length; k++){
-//                        var cl = _m[k].CellType;
-//                        if(cl == cell_letter) ancil_obj = _m.splice(k, 1)[0];
-//
-//                    }
-//                    ancil_obj = _m.splice(k, 1)[0];
-//
-//                    if($m.isEmpty(ancil_obj)) ancil_obj = {};  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DISABLE TO FIND OUT IF YOURE MISSING DATA IN THE HARD-CODED FILES
-//                }
-//
-//                if($m.isEmpty(ancil_obj) == false){
-//                    if(ancil_obj.Id) ancil_obj.Id = uId;
-//                    newArr.push(ancil_obj);
-//                }
-//            }
-
 
             return newArr;
         },
@@ -323,17 +273,14 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
             if(letter == 'd'){
                 ran = Math.floor(Math.random() * $m.ancillary_models.quote_data.length);
                 obj = $m.ancillary_models.quote_data[ran];
-//                obj = $q.ancillary_models.quote_data.splice(ran,1)[0];
             } else
             if(letter == 'e'){
                 ran = Math.floor(Math.random() * $m.ancillary_models.action_data.length);
                 obj = $m.ancillary_models.action_data[ran];
-//                obj = $q.ancillary_models.action_data.splice(0,1)[0];
             } else
             if(letter == 'g'){
                 ran = Math.floor(Math.random() * $m.ancillary_models.long_images.length);
                 obj = $m.ancillary_models.long_images[ran];
-//                obj = $q.ancillary_models.long_images.splice(0,1)[0];
             } else
             if(letter == 'i'){
                 obj = {
@@ -376,7 +323,6 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
             this._column = col;
             this._style = this._model.get("CellType");
             this._tplname = 'cell_'+this._style;
-            $log("CELL m:", this._model, " c:", this._column);
             this.render();
         },
 
@@ -385,16 +331,9 @@ Views use templates which are pre-compiled in Mosaic object and then removed fro
             this.$el.html( template );
             this.setElement(this.$el);
             this.$el.appendTo(this._column);
-        },
-
-        events: {
-//            "click input[type=button]": "doSearch"
-//            "click": "onClick"
-        },
-
-        onClick: function( e ){
-            $log( "CLICK EVENT:"+ e.currentTarget );
         }
+
+
     });
 
 

@@ -11,6 +11,87 @@
     }
     #slider-container{
       top: 30px;
+      .scroller{
+        .homepage {
+          width: 400px;
+          height: 100%;
+
+          .intro-block {
+            left: 5%;
+            top: 10%;
+            width: 80%;
+            h3 {
+              line-height: 1em;
+              font-weight: 200;
+              font-size: 1.7em;
+            }
+            h5 {
+              display: block;
+              p {
+                line-height: 1.2em;
+                font-weight: 200;
+                color: $almostWhite;
+                text-shadow: $text-shadow;
+
+              }
+            }
+            hr {
+              border-top: 2px dotted #FFFFFF;
+              color: #fff;
+              height: 1px;
+              width: 100%;
+              border-bottom: none;
+            }
+            a {
+              display:none;
+            }
+          }
+        }
+      }
+    }
+    #information-text{
+      height:250px;
+
+
+      .content {
+        min-height:250px;
+
+        .title {
+          font-weight: 800;
+          margin: 5px 0 0 0;
+          font-size:1.4em;
+        }
+        .author {
+          .name{
+            font-weight:600;
+            font-size:1.2em;
+            color:#FFF;
+          }
+          .jobtitle{
+            font-weight:200;
+            font-size:1.1em;
+            margin: 0 0 10px 0;
+          }
+        }
+        .article {
+          //background: transparent url(img/cell-horiz-div.png) no-repeat 0 0;
+          max-width:600px;
+          h6 {
+            margin: 0;
+            font-size:1em;
+          }
+          p {
+            font-weight: 200;
+            color: #FFF;
+          }
+        }
+        .cta-text {
+          font-weight: 600;
+          margin: 10px 15px 0 0;
+          //left: 5px;
+          font-size: 1em;
+        }
+      }
     }
   }
 }
@@ -36,3 +117,4 @@
     }
   }
 }
+

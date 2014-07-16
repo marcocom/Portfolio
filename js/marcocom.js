@@ -31,6 +31,8 @@
         _model:null,
         _mosaic_container:null,
         _landingPage:null,
+        _onStateContent:null,
+        _informationOpened:false,
         AncillaryLetters : ["d", "i"], //cell-types that are not CMS data-fed.  pulled from objects below.
         DataLetters : ["a", "b", "c", "f", "h", "j"], //cell-types that are CMS data-fed.
 
@@ -43,12 +45,11 @@
             this.windowWidth = $(window).width();
             this.windowHeight = $(window).height();
 
+            this._onStateContent = $('#information-text');
+
             $(window).resize($.proxy(this.onResize, this));
 
             $("#slider-container").hide();
-           // document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-
-//            Marcocom.eventManager.addEventHandler(Marcocom.Event.LOGIN_SUCCESS_FB_USER,this.fbLoggedIn.bind(this));
         },
         onResize: function(){
             this.windowWidth = $(window).width();
@@ -81,7 +82,6 @@
             if(name.length > 0) Marcocom.eventManager.fireEvent(Marcocom.Event.DEEPLINK,name);
         },
         popup : function(t,name) {
-            //$log('open popup: '+name);
             var popup = this._getPopup(name);
             if(popup != null) {
                 popup.show(name);
@@ -137,7 +137,6 @@
             }
         },
         sub_template : function (str, data) {
-            // match "<% include template-id %>"
             return _.template(
                 str.replace(
                     /<%\s*include\s*(.*?)\s*%>/g,
@@ -150,18 +149,11 @@
             );
         },
         isEmpty : function(obj) {
-
-            // null and undefined are "empty"
             if (obj == null) return true;
 
-            // Assume if it has a length property with a non-zero value
-            // that that property is correct.
             if (obj.length > 0)    return false;
             if (obj.length === 0)  return true;
 
-            // Otherwise, does it have any properties of its own?
-            // Note that this doesn't handle
-            // toString and valueOf enumeration bugs in IE < 9
             for (var key in obj) {
                 if (Object.prototype.hasOwnProperty.call(obj, key)) return false;
             }
@@ -175,7 +167,6 @@
 
     Marcocom.Popup = Class.extend({
         _construct : function(el) {
-            //this.api.onClose = this.overlayClose.bind(this);
             Marcocom.eventManager.addEventHandler(Marcocom.Event.SHOWPOPUP,this.show.bind(this));
 
             this._el = el;
@@ -184,7 +175,6 @@
             el.find('a.close').click(this.hide.bind(this));
         },
 
-        //disable this for now
         overlayClose : function() {
             document.location.hash = "";
         },
@@ -258,7 +248,6 @@
         },
         validateDayExists : function(d, m, y)
         {
-            //console.log("TEST isleapyear:"+isLeapYear(y)+" days:"+daysOfMonths[(m - 1)]+" d:"+d);
             if(m == 2 && isLeapYear(y))
                 return (d <= 29);
             else
@@ -401,64 +390,11 @@
                 'Action':"",
                 'Sentences':["real people", "real passion", "real action"],
                 'id':""
-            },
-            {
-                'Action':"jobs",
-                'Sentences':["get to know us", "click here if you are up to the challenge"],
-                'id':""
-            },
-            {
-                'Action':"about",
-                'Sentences':["who we are", "click here to find out"],
-                'id':""
-            },
-            {
-                'Action':"about",
-                'Sentences':["a team photo has many portraits", "but only one story"],
-                'id':""
-            },
-            {
-                'Action':"contact",
-                'Sentences':["a place to grow", "click here to find our locations"],
-                'id':""
-            },
-            {
-                'Action':"",
-                'Sentences':["real people", "real passion", "real action"],
-                'id':""
-            },
-            {
-                'Action':"jobs",
-                'Sentences':["get to know us", "click here if you are up to the challenge"],
-                'id':""
-            },
-            {
-                'Action':"about",
-                'Sentences':["who we are", "click here to find out"],
-                'id':""
-            },
-            {
-                'Action':"about",
-                'Sentences':["a team photo has many portraits", "but only one story"],
-                'id':""
-            },
-            {
-                'Action':"contact",
-                'Sentences':["a place to grow", "click here to find our locations"],
-                'id':""
             }
         ],
         'long_images':[
             {
                 'Image':"img/cells/longs/cell_g_1.jpg",
-                'id':""
-            },
-            {
-                'Image':"img/cells/longs/cell_g_2.jpg",
-                'id':""
-            },
-            {
-                'Image':"img/cells/longs/cell_g_3.jpg",
                 'id':""
             }
         ]

@@ -1,83 +1,20 @@
 [
 
-    {
-        "CellType" : "a",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "HOLLAND CASINO",
-        "Client": "Quince Amsterdam",
-        "JobTitle": "Art Director, Flash Dev",
-        "Article": "The GUESS n' WIN kioske was designed to attract casino clients to participate in the Highlights-campaign's guess-the-number game. As part of a fancy molded installation box, it was topped with a giant champagne glass, filled with pearls, to guess the total number. Designed and built by me in Flash, with WebServices secure backend and card-reader functionality.",
-        "URL": "samples/comps/RaadnWin3.jpg",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/RaadnWin1.jpg",
-            "img/screens/RaadnWin2.jpg",
-            "img/screens/RaadnWin3.jpg",
-            "img/screens/RaadnWin4.jpg",
-            "img/screens/RaadnWin5.jpg"
-        ]
-    },
-    {
-        "CellType" : "a",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "VODAFONE SCAN&WIN",
-        "Client": "Quince Amsterdam",
-        "JobTitle": "Creative Director",
-        "Article": "A retail below-the-line strategy for attracting consumers to participate in promotions and offers, and to give them a central mobile application to manage their information, and current events.",
-        "URL": "samples/comps/vodafone2.jpg",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/vodafone1.jpg",
-            "img/screens/vodafone2.jpg",
-            "img/screens/vodafone3.jpg",
-            "img/screens/vodafone4.jpg",
-            "img/screens/vodafone5.jpg",
-            "img/screens/vodafone6.jpg"
-        ]
-    },
+
     {
         "CellType" : "b",
         "Medium": "html",
         "Ref":"0",
-        "Title": "TOYOTA FINDYOURMATCH",
-        "Client": "Saatchi & Saatchi / RAPP",
-        "JobTitle": "Creative Technologist",
-        "Article": "This site required enterprise-level deployment demanding complete dynamic data from multiple sources, robust tracking, deep-linking, and high fidelity images in a 3D environment",
-        "URL": "http://www.toyota.com/findyourmatch",
-        "Dimensions":"1080,720",
-        "Image":[
-            "img/screens/findyourmatch.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "THE SECRET WORLD",
-        "Client": "Ayzenberg Group",
-        "JobTitle": "Creative Technologist",
-        "Article": "A facebook-data driven game-site. I was brought in with a team of top-shelf developers to produce this site in a very short amount of time using a PureMVC architecture.",
-        "URL": "http://www.thesecretworld.com/",
+        "Title": "BOLDRIDE",
+        "Client": "Code Particle 2011",
+        "JobTitle": "Front-End Developer",
+        "Article": "Built on KohanaPHP in MVC, this site required a very modular and widget-based solution to reuse UI components through-out the site. I built the javascript and Video player logic with pre-rolls and ad management",
+        "URL": "http://www.boldride.com",
         "Dimensions":"1280,720",
         "Image":[
-            "img/screens/secretworld.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "TOYOTA PRIUS HSD",
-        "Client": "Saatchi & Saatchi HSD",
-        "JobTitle": "Multimedia Designer",
-        "Article": "Created to introduce the Prius, and a whole new kind of car, our goal was to create a surreal city of blue sky and information about the new Prius. Using parallax and filtered 3D cell-shaded objects, this site was a success and helped to start the green movement.",
-        "URL": "/samples/flash/hsd/index.html",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/hsd1.jpg",
-            "img/screens/hsd2.jpg"
+            "img/screens/boldride1.jpg",
+            "img/screens/boldride2.jpg",
+            "img/screens/boldride3.jpg"
         ]
     },
     {
@@ -85,15 +22,64 @@
         "Medium": "html",
         "Ref":"0",
         "Title": "DODGE SRT",
-        "Client": "Admit One Productions",
+        "Client": "Admit One Productions 2011",
         "JobTitle": "Creative Director",
         "Article": "Using a cutting-edge driving-simulator from Big Block LA that creates CGI-rendered sequences with live physics, as well as the Flame-editing of Chris Nolert, we created a motion-graphics heavy introduction that leads into an SRT-centric website.",
-        "URL": "samples/html5/dodge_pitch",
+        "URL": ["samples/html5/dodge_pitch"],
         "Dimensions":"1280,720",
         "Image":[
             "img/screens/dodge_srt1.jpg",
             "img/screens/dodge_srt2.jpg",
             "img/screens/dodge_srt3.jpg"
+        ]
+    },
+    {
+        "CellType" : "a",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "KPN TOUCH KIOSKE",
+        "Client": "Quince Amsterdam 2013",
+        "JobTitle": "Creative Director",
+        "Article": "This was designed to be a table-mounted kioske that allows cellphone store customers (KPN is the largest carrier in The Netherlands) to see accessory items for their smart-phones and either purchase them from the store, or order them directly. The image depicts five phases of the unusually-shaped interface",
+        "URL": [
+            "samples/comps/kpn_kioske1.jpg",
+            "samples/comps/kpn_kioske2.jpg",
+            "samples/comps/kpn_kioske3.jpg",
+            "samples/comps/kpn_kioske4.jpg",
+            "samples/comps/kpn_kioske5.jpg"
+        ],
+        "Dimensions":"1600,720",
+        "Image":[
+            "img/screens/kpn_kioske.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "BECK - HELLO AGAIN",
+        "Client": "Wemersive / 360Heros 2012",
+        "JobTitle": "Front-End Developer",
+        "Article": "A Video-360 execution built in Flash using pre-loading with multiple camera-source assets and dynamic audio positioning. A technology later improved with streaming.",
+        "URL": ["http://www.hello-again.com/beck360/main/beck360.html"],
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/beck360.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TONY HAWK : RIDE",
+        "Client": "Activision 2010",
+        "JobTitle": "Creative Technologist",
+        "Article": "A very tight turn-around execution that integrates 360, Twitter API, GoogleMaps API, and deployed to over 18 different languages.",
+        "URL": ["http://www.thride.com"],
+        "Dimensions":"1280,1000",
+        "Image":[
+            "img/screens/thride1.jpg",
+            "img/screens/thride2.jpg"
         ]
     }
 ]

@@ -1,61 +1,67 @@
 [
+
+    {
+        "CellType" : "b",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "TOYOTA.COM REDESIGN",
+        "Client": "Saatchi & Saatchi 2006",
+        "JobTitle": "UX Designer, Developer",
+        "Article": "Built and architected site-wide navigation system using flash and xml to be instantly updateable for photo, price, and link values. Navs can recieve and validate zipcode information and reflects users current location in site. Support of Omniture user-tracking, and deployment in 3 languages and in kiosk-mode (restricted and simplified) for tradeshows, while laying transparently over any flash element beneath using a tight integration with Javascript and CSS layering. Also updated all sublevel global elements like flash-based Marketing Links, Model Selector, and secure user information forms. Also built and stylized all site-wide loaders.",
+        "URL": [
+            "samples/flash/tcom/style1",
+            "samples/comps/toyota_flashhome.jpg",
+            "samples/flash/tcom/style2"
+        ],
+        "Image":[
+            "img/screens/tcom_home_1.jpg",
+            "img/screens/tcom_home_2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "img",
+        "Ref":"0",
+        "Title": "INFINITI.COM REDESIGN",
+        "Client": "TBWA / The Designory 2006",
+        "JobTitle": "Lead Flash Developer",
+        "Article": "Built and architected site-wide navigation system using flash and xml to be instantly updated for photo, price, and link values. Navs can recieve and validate zipcode information and reflects users current location in site. Support of Omniture user-tracking, and deployment in 3 languages and in kiosk-mode (restricted and simplified) for tradeshows, while laying transparently over any flash element beneath using a tight integration with Javascript and CSS layering. Also updated all sublevel global elements like flash-based Marketing Links, Model Selector, and secure user information forms. Also built and stylized all site-wide loaders.",
+        "URL": ["samples/comps/infiniti2.jpg"],
+        "Image":[
+            "img/screens/infiniti1.jpg",
+            "img/screens/infiniti2.jpg"
+        ]
+    },
     {
         "CellType" : "f",
         "Medium": "img",
         "Ref":"0",
-        "Title": "GOODHOME",
-        "Client": "CKS Partners / marchFIRST",
+        "Title": "JC PENNEY",
+        "Client": "CKS Partners / marchFIRST 2000",
         "JobTitle": "Art Director",
-        "Article": "A USWEB/CKS project, under the Creative Direction of Tim Kain. I was hired to develop a Flash navigation system for the site, as well as site design and production for the lower levels of the site to fill in. The overall look and feel is airy and clean and achieved the client?s expectations by suggesting a desirable lifestyle to the user. This project was also delivered on an extremely tight schedule of about 8 weeks for both design and development.",
-        "URL": "",
+        "Article": "A project under the Creative Direction of Johanna Clark and Tim Kain, this client required a targeted promotion that could synergize their years of in-house research in their market and customer base, their usability testing, and their in-house technical resources and rebuild the JCPenney online identity. Assimilating the available data and test-results challenged the team with frequent design changes to account for the client?s in-house user testing results during development of the site. The final design used a very light and fast navigation system that allowed wide variability per section to allow for more of the bandwidth consumption to the larger and higher quality photographs and to enable the technical capability of the sophisticated custom software package they had developed in house. I was involved in look and feel establishment and concept for the site, with special attention to the women?s, men?s, and Features section of this very large website.",
+        "URL": [
+            "samples/comps/jcpenney1.jpg",
+            "samples/comps/jcpenney2.jpg"
+        ],
         "Image":[
-            "samples/comps/goodhome1.jpg",
-            "samples/comps/goodhome2.jpg",
-            "samples/comps/goodhome3.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "img",
-        "Ref":"0",
-        "Title": "SATURN.COM REDESIGN 2008",
-        "Client": "Deutsch, LA",
-        "JobTitle": "Designer, Flash Animator",
-        "Article": "Saturn was a new client to Deutsch LA, and I was brought aboard for my previous successes with Toyota, Nissan, and Infiniti, to concept and create the Homepage for this car client.  Using the latest FLV streaming techniques, the user experience is carefully loaded with control over the information-needs of visiting users and then delivers a user-driven video and still-photo introduction to each of the five vehicles.  This both was a way for me to repurpose the available very-rough footage that the client already had, and also help consumers identify the vehicle to the vehicles name.",
-        "URL": "samples/comps/saturn2.jpg",
-        "Image":[
-            "img/screens/saturn1.jpg",
-            "img/screens/saturn2.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "img",
-        "Ref":"0",
-        "Title": "TGIFRIDAYS.COM",
-        "Client": "Deutsch, LA",
-        "JobTitle": "Lead Flash Developer",
-        "Article": "TGIFridays looked to Deutsch LA to redesign and reinvigorate their online site and menu/information architecture.  My role was in the creation of the Homepage, Drinks section, and dynamic flash menu and image throughout the site with a development schedule of two weeks. The timeline required an experienced sure-hand on the server-side and DHTML provided by Kish Hiranand, and design by Todd Swaim.",
-        "URL": "img/comps/tgifridays2.jpg",
-        "Image":[
-            "img/screens/tgifridays1.jpg",
-            "img/screens/tgifridays2.jpg"
+            "img/screens/jcpenney1.jpg",
+            "img/screens/jcpenney2.jpg",
+            "img/screens/jcpenney3.jpg"
         ]
     },
     {
         "CellType" : "a",
         "Medium": "html",
         "Ref":"0",
-        "Title": "BOLDRIDE",
-        "Client": "Code Particle",
+        "Title": "REDBULL SOAP-RACE",
+        "Client": "Kastner & Partners 2011",
         "JobTitle": "Front-End Developer",
-        "Article": "Built on KohanaPHP in MVC, this site required a very modular and widget-based solution to reuse UI components through-out the site. I built the javascript and Video player logic with pre-rolls and ad management",
-        "URL": "http://www.boldride.com",
+        "Article": "Using a hybrid execution of Raphael.js, JQuery, and Flash for incompatible browsers, this site required the ability to drag and explore in any direction limitlessly.",
+        "URL": ["samples/html5/redbull"],
         "Dimensions":"1280,720",
         "Image":[
-            "img/screens/boldride1.jpg",
-            "img/screens/boldride2.jpg",
-            "img/screens/boldride3.jpg"
+            "img/screens/redbull.jpg"
         ]
     }
 ]

@@ -7,7 +7,7 @@ java -jar compress.jar cat_main.js -o main.js
 (or)
 uglifyjs cat_main.js -minify -o main.js
 (or)
-uglifyjs cat_main.js -compressed -o main.js
+uglifyjs2 cat_main.js -c --screw-ie8 -o main.js
 
 rm cat_main.js
 (always delete cat file after compression or else it will double-up next time)

@@ -48,6 +48,25 @@
       font-size:0.8em;
     }
 }
+@mixin information-text-foreground {
+
+  width:100%;
+  margin: 0;
+    .name{
+      font-weight:600;
+      font-size:1.6em;
+      color:#FFF;
+      &:hover{
+        color:darken(#FFF, .50);
+      }
+    }
+    .jobtitle{
+      font-weight:200;
+      font-size:1.6em;
+      margin: 0 0 10px 0;
+      color:$almostWhite;
+    }
+}
 
 
 @mixin desaturate {

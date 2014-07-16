@@ -50,7 +50,6 @@
         _construct : function(el) {
             this._el = $(el);
             this._super(this._el);
-//            $log("Mosaic init");
             var h = this._el.find('.homepage');
             this._home = $(h);
             this.initContainer();
@@ -72,24 +71,7 @@
 
 
 
-//            this._slider.scrollBy(-$m.windowWidth, 0, 2500, IScroll.utils.ease.elastic);
-
-            this._slider.on('scrollStart', $.proxy(this.onScrollStart, this));
-//            this._slider.on('scrollCancel', $.proxy(this.onScrollCancel, this));
-            this._slider.on('scrollEnd', $.proxy(this.onScrollEnd, this));
-            this._slider.on('scroll', $.proxy(this.onScrollX, this));
-//            this._slider.on('flick', $.proxy(this.onFlick, this));
-//            this._slider.on('refresh', $.proxy(this.positionMosaic, this));
-//            this._slider.on('beforeScrollStart', this.onBeforeScrollStart.bind(this));
-
-//            } else {
-//                var sl = this._el.find('#slider-container .scroller')
-//                this._slider = $(sl[0]);
-//                this._slider.css({'overflow-y':'hidden', 'overflow-x':'visible'});
-//            }
-
             this.loading_items = true;
-            $log("MOSAIC INITCONTAINER () -- DETECTIONS =======  isMSGesture:"+$m.msGesture+" isTouch:"+$m.isTouch);
 
             var m = this._el.find('.mosaic-container');
             this._mosaic = $(m);
@@ -113,9 +95,22 @@
             this.hideLoader();
 
             this.onResize(null);
+
+//            this._mosaic.on('click', this.onMouseDown.bind(this));
+        },
+        onMouseDown : function(e){
+
+
         },
 
         addEventHandlers : function(){
+            this._slider.on('scrollStart', $.proxy(this.onScrollStart, this));
+            this._slider.on('scrollEnd', $.proxy(this.onScrollEnd, this));
+            this._slider.on('scroll', $.proxy(this.onScrollX, this));
+//            this._slider.on('scrollCancel', $.proxy(this.onScrollCancel, this));
+//            this._slider.on('flick', $.proxy(this.onFlick, this));
+//            this._slider.on('refresh', $.proxy(this.positionMosaic, this));
+//            this._slider.on('beforeScrollStart', this.onBeforeScrollStart.bind(this));
             $m.EventManager.addEventHandler($m.Event.RESIZE, $.proxy(this.onResize, this));//this.onResize.bind(this));
             $m.EventManager.addEventHandler($m.Event.MOSAIC_VIDEO, this.playbackVideo.bind(this));
             $m.EventManager.addEventHandler($m.Event.MODEL_COLUMNS_NODATA, this.onEndOfData.bind(this));
@@ -125,6 +120,8 @@
         },
 
         removeEventHandlers : function(){
+            this._slider.off('scrollStart');
+            this._slider.off('scrollEnd');
 
             $m.EventManager.removeEventHandler($m.Event.RESIZE, $.proxy(this.onResize, this));
 
@@ -155,7 +152,6 @@
             //this._slider.x <= this._slider.maxScrollX
             var go = ($m.windowWidth + Math.abs(this._slider.x)) - (this._cta.width() + 10);
             var currentX = Number(this._cta.css('left').split('px')[0]);
-            $log("CTA x:"+currentX+" go:"+go);
             if(go > currentX)
                 this._cta.animate({ left: (go+'px') }, 600, 'easeOutBounce');
 
@@ -213,7 +209,6 @@
 
         appendMosaic: function(e){
 
-            $log("REFRESH MOSAIC!!!!!!");
             var c = this._mosaic.find('.column');
             var newcol = c[c.length-1];
 
@@ -245,24 +240,19 @@
 
         scaleColumns : function(w){
             var _this = this;
-            $log("SET WIDTH:"+w);
             this._columns.each(function(e){
                 $(this).width(w);
             })
         },
 
         onScrollStart : function(e){
-//            $log("SCROLL START----------------");
             $m.EventManager.fireEvent($m.Event.MOSAIC_SCROLL_START, this);
-//            $m.EventManager.fireEvent(Marcocom.Event.RESIZE);
         },
 
         onScrollCancel : function(e){
-//            $log("SCROLL CANCEL----------------");
         },
 
         onScrollEnd : function(e){
-//            $log("SCROLL END---------------- X:"+this.x);
                 this.currentScrollX = this._slider.x;
                 this.animateCTA();
 //            if(this._slider.x <= this._slider.maxScrollX) this.showLoader();
@@ -270,7 +260,6 @@
         },
 
         onScrollX : function(e){
-//            $log("SCROLL END---------------- X:"+this.x);
                 this.currentScrollX = this._slider.x;
                 this.animateCTA();
 //            if(this._slider.x <= this._slider.maxScrollX) this.showLoader();
@@ -301,12 +290,10 @@
         },
 
         onFlick : function(e){
-            $log("FLICK----------------");
             $m.EventManager.fireEvent($m.Event.MOSAIC_FLICK, this);
         },
 
         playbackVideo : function(e, url){
-//            $log("VIDEO PLAYER----------   src:"+url);
 
             $.fancybox({
 
@@ -375,8 +362,6 @@
                 _this._cells.push(mc);
             });
 
-            //$log("INIT PARENT-COLUMN cells:"+ this._cells.length);
-
             $m.EventManager.fireEvent(Marcocom.Event.RESIZE, this);
         }
     });
@@ -414,8 +399,6 @@
 
         initContainer : function(){
             this.sizeLetter = this.getItemSize(this._el);
-//            $log("CELL INIT -- SIZE:"+this.sizeLetter+" parent:"+this._parent);
-
 
             var n = this._el.find('.on-state');
             var f = this._el.find('.off-state');
@@ -430,12 +413,8 @@
                     this._el.on('MSGestureEnd', $.proxy(this.onMsRelease, this));
                 } else {
                     this._el.hammer().on('touch', $.proxy(this.onPress, this));
-//                                    this._el.on('mousedown, touchstart', $.proxy(this.onPress, this));
-                    //                this._el.mousedown($.proxy(this.onPress, this));
 
                     this._el.hammer().on('release', $.proxy(this.onRelease, this));
-//                                    this._el.on('mouseup, touchend', $.proxy(this.onRelease, this));
-                    //                this._el.mouseup($.proxy(this.onRelease, this));
 
                 }
             } else
@@ -524,7 +503,6 @@
         processVideoAction : function(portal){
 
             var num = this._el.data('ref');
-            //$log("VIDEO ACTION -portal:"+portal+" num:"+num);
 
             var url = "http://";
             if(portal == "vim") url += "player.vimeo.com/video/";
@@ -533,14 +511,13 @@
             if(num){
                 url += num;
             } else {
-                url = "http://vimeo.com/Marcocomamsterdam";
+                url = "http://vimeo.com/Marcocom";
             }
 
             $m.EventManager.fireEvent($m.Event.MOSAIC_VIDEO, this, url);
         },
 
         processPageAction : function(actionString){
-            //$log("ACTION:"+actionString);
 
             if(actionString != "none"){
                 this._el.click(function(e){
@@ -554,7 +531,6 @@
 
         colorizeCell : function(){
             var ind = Math.floor(Math.random() * $m.Brand.ALL_COLORS.length);
-            //$log("COLORIZE CELL index:"+ind);
             var newcolor = $m.Brand.ALL_COLORS[ind];
             this._el.find('.off-state').css({'background-color':newcolor});
         },
@@ -565,13 +541,10 @@
         },
         onCellClose : function(e, target){
             var isMe = e == this;
-
 //            if(!isMe) this._el.fadeTo(0 , 1);
         },
 
         onClick : function(e){
-
-            //$log("CELL CLICKED!");
             if(!this.opened){
                 this.openInfo();
             } else {
@@ -583,28 +556,44 @@
         openInfo : function(){
             if(!this.opened){
                 $m.EventManager.fireEvent($m.Event.OPEN_CELL, this);
+
+
                 var t = Math.round(this._el.height() - 20);
                 //if($m.platformDetect.android || $m.platformDetect.blackberry || $m.platformDetect.iphone)
                     this.offContent.addClass('desaturate');
-                if(this.onContent) this.onContent.topZIndex();
+//                if(this.onContent) this.onContent.topZIndex();
                 this.opened = true;
-                if(this.sizeLetter == "f"){
+                $m._informationOpened = true;
+                if(this.sizeLetter == "f" ){
                     this._carousel.flexslider("pause");
                     if(this.onContent) this.onContent.css({'top':'35%'});
                 } else {
-                    this.onContent.css({'top':(this.sizeLetter == 'a' ? '30%' : '0')});
+
+//                    this.onContent.css({'top':(this.sizeLetter == 'a' ? '30%' : '0')});
+                    var data = this.onContent[0].innerHTML;
+                    $m._onStateContent.html(data);
+
+                    //foreground element
+                    var c = $m._onStateContent.find('.content');
+                    var content = $(c[0]);
+                    //content.css({'top':'-100%'});
+                    content.animate({ top: '-100%' }, 400, 'easeOutBounce');
+
+
 
                 }
             }
         },
 
         closeInfo : function(){
-            $m.EventManager.fireEvent($m.Event.CLOSE_CELL, this);
-
             if(this.opened){
                 this.offContent.removeClass('desaturate');
                 if(this.onContent) this.onContent.css({'top':'100%'});
+                var c = $m._onStateContent.find('.content')
+                var content = $(c[0]);
+                content.css({'top':'0'});
                 this.opened = false;
+                $m._informationOpened = false;
                 if(this.sizeLetter == "f") this._carousel.flexslider("play");
             }
         },
@@ -613,7 +602,6 @@
             e.preventDefault();
             e.stopPropagation();
             this.startMouseX = e.gesture.center.pageX;
-//            $log("ONPRESS [[]]:"+this.startMouseX);
         },
 
         onRelease : function(e){
@@ -621,18 +609,15 @@
             e.stopPropagation();
             var xdist = e.gesture.center.pageX - this.startMouseX;
             if(xdist < this.deadzone && xdist > -this.deadzone) this.onClick(null);
-//            $log("ONRELEASE ]][[:"+xdist);
         },
 
         onMsPress : function(e){
             e.preventDefault();
             e.stopPropagation();
-//            $log("CELL PRESS!");
             this.startMouseX = e.pageX;
         },
 
         onMsRelease : function(e){
-//            $log("CELL RELEASE!");
             e.preventDefault();
             e.stopPropagation();
             var xdist = e.pageX - this.startMouseX;

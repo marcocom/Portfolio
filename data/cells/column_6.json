@@ -1,83 +1,78 @@
 [
-
-
     {
-        "CellType" : "f",
+        "CellType" : "b",
         "Medium": "html",
         "Ref":"0",
-        "Title": "CALL OF DUTY:ELITE",
-        "Client": "Activision, Code Particle",
-        "JobTitle": "Front-End Developer",
-        "Article": "A complex Java SpringMVC front-end, to replace a 2Advanced Flash front-end. I did javascript/CSS in Backbone and underscore, with JqueryEXT classes, in an entirely custom-built framework for speed and extensibility. I introduced and advocated using LESS pre-compiling. The team was comprised of some the brightest minds in the industry, sparing no expense, with luminaries on consultation from Google, Yahoo, and other game-development companies, coordinated through a deep Scrum process and heavy quality-assurance coordination. I was lucky to be on this team, as they needed flash experience, and I used this opportunity to study the latest enterprise-level custom HTML5 methodologies and learn from the best.",
-        "URL": "http://www.callofduty.com/elite",
+        "Title": "BANK OF AMERICA",
+        "Client": "Rapp 2010",
+        "JobTitle": "Designer, Flash Animation",
+        "Article": "Rapp/Collins hired me to create a flash user-demo of how to properly use and make sense of the SiteKey security functions and enrollment requirements.",
+        "URL": ["samples/flash/bankamerica/sitekey.html"],
+        "Dimensions":"1024,600",
+        "Image":[
+            "img/screens/bankamerica1.jpg",
+            "img/screens/bankamerica2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "MIAMI DOLPHINS AQUAVISION",
+        "Client": "Foundation5 2011",
+        "JobTitle": "Flash Developer",
+        "Article": "This was a Flash Media Server project, requiring integration into IRC chat channels, and Broadcaster/Audience inter-operabililty",
+        "URL": ["samples/flash/aquavision/vplayer_container.html"],
+        "Dimensions":"920,455",
+        "Image":[
+            "img/screens/aquavision1.jpg",
+            "img/screens/aquavision2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TOYOTA LANDCRUISER",
+        "Client": "Saatchi & Saatchi 2005",
+        "JobTitle": "Flash Developer",
+        "Article": "Concepted and animated in team with print art director, Rhasaan Jackson under assocCreativeDir, Scott Muckenthaler. The substance of this project is clearly in its written content by John Bollow, as well. (winner:Belding Bowl, Cannes Cyberlion, OneShow) ",
+        "URL": ["samples/flash/landcruiser"],
+        "Dimensions":"1024,768",
+        "Image":[
+            "img/screens/landcruiser_heritage_1.jpg",
+            "img/screens/landcruiser_heritage_2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "TOYOTA FINDYOURMATCH",
+        "Client": "Saatchi & Saatchi / RAPP 2012",
+        "JobTitle": "Creative Technologist",
+        "Article": "This site required enterprise-level deployment demanding complete dynamic data from multiple sources, robust tracking, deep-linking, and high fidelity images in a 3D environment",
+        "URL": ["http://www.toyota.com/findyourmatch"],
+        "Dimensions":"1080,720",
+        "Image":[
+            "img/screens/findyourmatch.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "THE SECRET WORLD",
+        "Client": "Ayzenberg Group 2011",
+        "JobTitle": "Creative Technologist",
+        "Article": "A facebook-data driven game-site. I was brought in with a team of top-shelf developers to produce this site in a very short amount of time using a PureMVC architecture.",
+        "URL": [
+            "http://www.thesecretworld.com/",
+            "samples/comps/secretworld.jpg"
+        ],
         "Dimensions":"1280,720",
         "Image":[
-            "img/screens/cod_elite1.jpg",
-            "img/screens/cod_elite2.jpg",
-            "img/screens/cod_elite3.jpg",
-            "img/screens/cod_elite4.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "60 MINUTES",
-        "Client": "Code Particle",
-        "JobTitle": "Front-End Developer",
-        "Article": "Built in MVC javascript to achieve a rich-media effect that was previously only possible in Flash. My job was javascripting of social-features and optional flash-based video-logic for pre-roll advertising.",
-        "URL": "samples/html5/60minutes",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/60minutes1.jpg",
-            "img/screens/60minutes2.jpg",
-            "img/screens/60minutes3.jpg",
-            "img/screens/60minutes3.jpg"
-        ]
-    },
-
-    {
-        "CellType" : "a",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "KPN TOUCH KIOSKE",
-        "Client": "Quince Amsterdam",
-        "JobTitle": "Creative Director",
-        "Article": "This was designed to be a table-mounted kioske that allows cellphone store customers (KPN is the largest carrier in The Netherlands) to see accessory items for their smart-phones and either purchase them from the store, or order them directly. The image depicts five phases of the unusually-shaped interface",
-        "URL": "samples/comps/kpn_kioske.jpg",
-        "Dimensions":"1600,720",
-        "Image":[
-            "img/screens/kpn_kioske.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "SCION MEDIA 2010",
-        "Client": "Whitmann-Hart / The Attic",
-        "JobTitle": "Creative Technologist",
-        "Article": "My concept with this banner-ad campaign was to use coded animations to reduce k-size while creating a blown-up effect to showcase how configurable and personalized your Scion can be. This was later used for the landing-page of all vehicles.",
-        "URL": "samples/banners/scion/index.html",
-        "Dimensions":"800,720",
-        "Image":[
-            "img/screens/scion1.jpg",
-            "img/screens/scion2.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "TONY HAWK : RIDE",
-        "Client": "Activision",
-        "JobTitle": "Creative Technologist",
-        "Article": "A very tight turn-around execution that integrates 360, Twitter API, GoogleMaps API, and deployed to over 18 different languages.",
-        "URL": "http://www.thride.com",
-        "Dimensions":"1280,1000",
-        "Image":[
-            "img/screens/thride1.jpg",
-            "img/screens/thride2.jpg"
+            "img/screens/secretworld.jpg"
         ]
     }
 ]

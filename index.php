@@ -55,18 +55,6 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                     <img class="title" src="img/title.png">
                 </div>
                 <div id="information-text">
-                    <div class="content">
-                        <h2 class="title"></h2>
-                        <h2 class="client"></h2>
-                        <div class="author">
-                            <h3 class="jobtitle"><em></em></h3>
-                        </div>
-                        <div class="article">
-                            <h4></h4>
-                        </div>
-                        <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
-
-                    </div>
                 </div>
                 <div id="slider-container">
                     <div class="scroller">
@@ -160,17 +148,18 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                 </div>
                 <div class="on-state">
                     <div class="content">
-                        <h5 class="title"><%= Title %></h5>
+                        <h5 class="title"><%= Title %>, <%= Client %></h5>
                         <div class="author">
                         <h5 class="jobtitle"><%= JobTitle %><em></em></h5>
                         </div>
                         <div class="article">
                             <h6><%= Article %></h6>
                         </div>
-                        <% if(URL && URL.length > 0){ %>
-                        <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
+                        <% for (var i=0; i < URL.length; i++) { %>
+                            <% if(URL[i].length > 0){ %>
+                                <a class="cta-text" href="<%= URL[i] %>" target="_blank" >view sample &gt;&gt;</a>
+                            <% } %>
                         <% } %>
-                        
                     </div>
                 </div>
             </div>
@@ -186,15 +175,18 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                 </div>
                 <div class="on-state">
                     <div class="content">
-                        <h5 class="title"><%= Title %></h5>
+                        <h5 class="title"><%= Title %>, <%= Client %></h5>
                         <div class="author">
                             <h5 class="jobtitle"><%= JobTitle %><em></em></h5>
                         </div>
                         <div class="article">
                             <h6><%= Article %></h6>
                         </div>
-                        <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
-                        
+                        <% for (var i=0; i < URL.length; i++) { %>
+                            <% if(URL[i].length > 0){ %>
+                                <a class="cta-text" href="<%= URL[i] %>" target="_blank" >view sample &gt;&gt;</a>
+                            <% } %>
+                        <% } %>
                     </div>
                 </div>
             </div>
@@ -244,7 +236,7 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                 <% if(Article.length > 0){ %>
                 <div class="on-state">
                     <div class="content">
-                        <h5 class="title"><%= Title %></h5>
+                        <h5 class="title"><%= Title %>, <%= Client %></h5>
                         <div class="author">
                             <h5 class="jobtitle"><%= JobTitle %><em></em></h5>
                         </div>
@@ -252,8 +244,10 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                             <h6><%= Article %></h6>
                         </div>
 
-                        <% if(URL.length > 0){ %>
-                            <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
+                        <% for (var i=0; i < URL.length; i++) { %>
+                            <% if(URL[i].length > 0){ %>
+                                <a class="cta-text" href="<%= URL[i] %>" target="_blank" >view sample &gt;&gt;</a>
+                            <% } %>
                         <% } %>
                     </div>
                 </div>
@@ -283,8 +277,12 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                         <div class="article">
                             <h5><%= Article %></h5>
                         </div>
-                        <a class="cta-text" href="<%= URL %>" target="_blank" >view more &gt;&gt;</a>
-                        
+                        <% for (var i=0; i < URL.length; i++) { %>
+                            <% if(URL[i].length > 0){ %>
+                                <a class="cta-text" href="<%= URL[i] %>" target="_blank" >view sample &gt;&gt;</a>
+                            <% } %>
+                        <% } %>
+
                     </div>
                 </div>
             </div>
@@ -322,8 +320,8 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
         <script>window.jQuery || document.write('<script type="text/javascript" src="js/lib/jquery-1.10.2.js"><\/script>')</script>
 <!--        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
 
-        <script type="text/javascript" src="js/main.js"></script>
-<!--        <script type="text/javascript" src="js/loader.js"></script>-->
+<!--        <script type="text/javascript" src="js/main.js"></script>-->
+        <script type="text/javascript" src="js/loader.js"></script>
 
     </body>
 </html>

@@ -1,75 +1,107 @@
 [
 
     {
-        "CellType" : "b",
+        "CellType" : "a",
         "Medium": "html",
         "Ref":"0",
-        "Title": "STREAMING 360 VIDEO",
-        "Client": "Wemersive",
-        "JobTitle": "Creative Director, Engineer",
-        "Article": "A Video-360 execution that I was required to build in 3 different platforms; HTML, Flash, and HaxeNME for Android.",
-        "URL": "samples/html5/spin",
+        "Title": "HOLLAND CASINO",
+        "Client": "Quince Amsterdam 2013",
+        "JobTitle": "Art Director, Flash Dev",
+        "Article": "The GUESS n' WIN kioske was designed to attract casino clients to participate in the Highlights-campaign's guess-the-number game. As part of a fancy molded installation box, it was topped with a giant champagne glass, filled with pearls, to guess the total number. Designed and built by me in Flash, with WebServices secure backend and card-reader functionality.",
+        "URL": [
+            "samples/comps/RaadnWin1.jpg",
+            "samples/comps/RaadnWin2.jpg",
+            "samples/comps/RaadnWin3.jpg",
+            "samples/comps/RaadnWin4.jpg",
+            "samples/comps/RaadnWin5.jpg"
+        ],
         "Dimensions":"1280,720",
         "Image":[
-            "img/screens/wemersive1.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "BECK, HELLO AGAIN",
-        "Client": "Wemersive, 360Heros",
-        "JobTitle": "Front-End Developer",
-        "Article": "A Video-360 execution built in Flash using pre-loading with multiple camera-source assets and dynamic audio positioning. A technology later improved with streaming.",
-        "URL": "http://www.hello-again.com/beck360/main/beck360.html",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/beck360.jpg"
+            "img/screens/RaadnWin1.jpg",
+            "img/screens/RaadnWin2.jpg",
+            "img/screens/RaadnWin3.jpg"
         ]
     },
     {
         "CellType" : "a",
         "Medium": "html",
         "Ref":"0",
-        "Title": "HTC - THE SCORE",
-        "Client": "Quince Amsterdam",
-        "JobTitle": "Front-End Developer",
-        "Article": "The Score is a worldwide campaign to wager on the winner of the EUFA soccer matches, and to entice retail sales-people to keep a good relationship with HTC, its latest products, and to promote them to consumers. Built on Twitter Bootstrap and PHP",
-        "URL": "samples/comps/htc_the_score3.jpg",
-        "Dimensions":"1280,720",
-        "Image":[
-            "img/screens/htc_the_score1.jpg",
-            "img/screens/htc_the_score2.jpg",
-            "img/screens/htc_the_score3.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "ORACLE INSIGHT",
-        "Client": "Quince, Amsterdam",
+        "Title": "VODAFONE SCAN&WIN",
+        "Client": "Quince Amsterdam 2014",
         "JobTitle": "Creative Director",
-        "Article": "A presentation piece enabling Oracle sales people to discuss data-modeling without the mind-numbingly bad diagrams usually used.",
-        "URL": "samples/comps/oracle1.jpg",
+        "Article": "A retail below-the-line strategy for attracting consumers to participate in promotions and offers, and to give them a central mobile application to manage their information, and current events.",
+        "URL":[
+            "samples/comps/vodafone2.jpg",
+            "samples/comps/vodafone3.jpg",
+            "samples/comps/vodafone4.jpg",
+            "samples/comps/vodafone5.jpg",
+            "samples/comps/vodafone6.jpg"
+        ],
         "Dimensions":"1280,720",
         "Image":[
-            "img/screens/oracle1.jpg"
+            "img/screens/vodafone1.jpg",
+            "img/screens/vodafone2.jpg",
+            "img/screens/vodafone3.jpg",
+            "img/screens/vodafone4.jpg",
+            "img/screens/vodafone5.jpg",
+            "img/screens/vodafone6.jpg"
+        ]
+    },
+    {
+        "CellType" : "f",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "CALL OF DUTY:ELITE",
+        "Client": "Activision / Code Particle 2012",
+        "JobTitle": "Front-End Developer",
+        "Article": "A complex Java SpringMVC front-end, to replace a 2Advanced Flash front-end. I did javascript/CSS in Backbone and underscore, with JqueryEXT classes, in an entirely custom-built framework for speed and extensibility. I introduced and advocated using LESS pre-compiling. The team was comprised of some the brightest minds in the industry, sparing no expense, with luminaries on consultation from Google, Yahoo, and other game-development companies, coordinated through a deep Scrum process and heavy quality-assurance coordination. I was lucky to be on this team, as they needed flash experience, and I used this opportunity to study the latest enterprise-level custom HTML5 methodologies and learn from the best.",
+        "URL": ["http://www.callofduty.com/elite"],
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/cod_elite1.jpg",
+            "img/screens/cod_elite2.jpg",
+            "img/screens/cod_elite3.jpg",
+            "img/screens/cod_elite4.jpg"
         ]
     },
     {
         "CellType" : "a",
         "Medium": "html",
         "Ref":"0",
-        "Title": "HTC PRO",
-        "Client": "Quince, Amsterdam",
-        "JobTitle": "Art Director",
-        "Article": "A mobile application with accompanying website using shared assets, and built on an outdated Java framework. Understanding Retina resolution graphics was essential to make this work.",
-        "URL": "samples/comps/htc_pro.jpg",
+        "Title": "D.W.DRUMS KITBUILDER",
+        "Client": "Code Particle 2012",
+        "JobTitle": "Front-End Developer",
+        "Article": "A pure javascript solution, this site runs entirely on JSON data, with an ASP Classic solution for saving graphics for social-sharing. This has drag-and-drop and persistent dynamic logic with bookmarking anywhere ",
+        "URL": ["http://www.dwdrums.com/kitbuilder"],
         "Dimensions":"1280,720",
         "Image":[
-            "img/screens/htc_pro.jpg"
+            "img/screens/dwdrums1.jpg",
+            "img/screens/dwdrums2.jpg",
+            "img/screens/dwdrums3.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "60 MINUTES",
+        "Client": "Code Particle 2012",
+        "JobTitle": "Front-End Developer",
+        "Article": "Built in MVC javascript to achieve a rich-media effect that was previously only possible in Flash. My job was javascripting of social-features and optional flash-based video-logic for pre-roll advertising.",
+        "URL": [
+            "samples/html5/60minutes",
+            "samples/comps/60minutes1.jpg",
+            "samples/comps/60minutes2.jpg",
+            "samples/comps/60minutes3.jpg",
+            "samples/comps/60minutes4.jpg"
+        ],
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/60minutes1.jpg",
+            "img/screens/60minutes2.jpg",
+            "img/screens/60minutes3.jpg",
+            "img/screens/60minutes3.jpg"
         ]
     }
+
 ]
