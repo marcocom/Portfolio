@@ -91,7 +91,7 @@ body{
   height:100%;
   display:block;
   top:0;
-  //@include transition(all 0.5s ease-out 0s);
+  @include transition(top 0.5s ease-out 0s);
   @include box-shadow($div-shadow);
 //  background-color:$brand-gray;
   position: absolute;
@@ -228,7 +228,7 @@ body{
         padding: 10px;
         background: #323232;
         @include box-shadow($div-shadow);
-        @include transition('top', 0.5s);
+        @include transition(top, 0.5s);
         @include transition-timing-function(ease-out);
 
         .title {
@@ -360,10 +360,13 @@ body{
     display:block;
     z-index: 0;
     .tiles{
-      width:4000px;
+      width:12000px;
       height:1200px;
       display:block;
       position:absolute;
+      left:0;
+      @include transition(left, 1s);
+      @include transition-timing-function(ease-out);
       .tile{
         display:inline-block;
         float:left;
@@ -640,11 +643,6 @@ body{
       padding: 0px 5px;
       background:#FFFFFF;
 
-      //-webkit-transition:top 1s;
-      //-moz-transition:top 1s;
-      //-ms-transition:top 1s;
-      //-o-transition:top 1s;
-      //transition:top 1s;
 
       @include transition(top 0.5s);
       @include transition-timing-function(ease-out);

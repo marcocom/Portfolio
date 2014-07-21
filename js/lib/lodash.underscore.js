@@ -3627,6 +3627,7 @@
    */
   function delay(func, wait) {
     var args = nativeSlice.call(arguments, 2);
+
     return setTimeout(function() { func.apply(undefined, args); }, wait);
   }
 

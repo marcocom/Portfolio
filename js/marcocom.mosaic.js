@@ -41,12 +41,7 @@
         _loader : null,
         _cta : null,
         _home : null,
-        columnWidths:{
-            'xs':480,
-            'md':412,
-            'sh':608,
-            'tl':700
-        },
+
         _construct : function(el) {
             this._el = $(el);
             this._super(this._el);

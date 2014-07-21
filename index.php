@@ -86,6 +86,12 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                     <div class="tiles">
                         <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
                         <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
                     </div>
                 </div>
             </div>
@@ -128,8 +134,8 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                             <p>Upon closure of CKS, I moved to San Diego to do creative direction for a small firm in the real-estate brokerage market and after one year, moved back to Los Angeles to work at Saatchi & Saatchi and handle Toyota for the next 3 years, followed by another 5 years of automotive-work for Nissan, Acura, Scion, and Chrysler/Dodge</p>
                             <p>The past 4 years since 2010, I have mixed it up, working with Activision on Call Of Duty, doing 360-video solutions and touch-screens in Amsterdam, and working in Detroit with Chrysler for Admit One Productions.</p>
                             <p>My specialties include: Concepting, Digital Design, Ad Media, Interactive Touch Displays, Front-end code development in HTML/CSS, Advanced OOP Javascript and Actionscript.</p>
-                            <p><a href="resume/resume.htm" target="_blank">view my resume >></a></p>
-                            <p><a href="resume/marco_comparato_cv.doc">download resume >></a></p>
+                            <p><a href="resume/marco_comparato_tech.pdf" target="_blank">view my resume >></a></p>
+                            <p><a href="resume/marco_comparato_tech.doc">download resume >></a></p>
                         </h5>
                     </div>
             </div>

@@ -51,7 +51,10 @@
         _current:null,
         _currentscroller:null,
         backgrounds:null,
+        _currentBackgroundImg:null,
         tiles:null,
+        tilesContainer:null,
+        _currentMainMosaicX:0,
         _construct : function(el) {
             this._el = $(el);
             this._super(this._el);
@@ -72,22 +75,31 @@
                 $m.cellRouter.navigate("/", {trigger:true});
             });
 
-
             this.initRouter();
-
             this.initBackground();
         },
 
         initBackground:function(){
 
-
             this.backgrounds = $('.backgrounds');
+            this.tilesContainer = $(this.backgrounds.find('.tiles')[0]);
             this.tiles = this.backgrounds.find('.tile');
 
             var rand = _.random(1,7);
-            var bg_asset = 'img/backgrounds/bg'+rand+'.jpg';
-            $log("BG:"+bg_asset);
-            this.tiles.append('<img src="'+bg_asset+'">');
+            this._currentBackgroundImg = 'img/backgrounds/bg'+rand+'.jpg';
+            this.tiles.append('<img src="'+this._currentBackgroundImg+'">');
+//            $m.EventManager.addEventHandler($m.Event.MOSAIC_SCROLL_X, $.proxy(this.mosaicScrollHandler, this));
+        },
+
+        mosaicScrollHandler : function(e, xdiff){
+            this._currentMainMosaicX = xdiff;
+            this.scrollBackground(xdiff);
+        },
+
+        scrollBackground:function(mod){
+            //this.backgrounds.x -= (this.backgrounds.x - mod) * .25;
+//            this.backgrounds.animate({left: (go+'px') }, 2000, 'easeInOut');
+            if(mod < 0) this.tilesContainer.css({'left':(mod+'px')});
         },
 
         initRouter : function(){
@@ -147,7 +159,7 @@
                 } else if(action == null){
                     //$log("DEFAULT ROUTE - NO ACTION");
                     if(_this.subcontentOpened == true) _this.pageCollapse(null);
-                    $m.EventManager.fireEvent(Marcocom.Event.ROUTER_MAIN_MOSAIC, _this, action || null);
+//                    $m.EventManager.fireEvent(Marcocom.Event.ROUTER_MAIN_MOSAIC, _this, action || null);
                 }
             });
 
@@ -204,12 +216,16 @@
 
             if(hasSlider) this._currentscroller = new $m.Page.SubPage(this.currentContent);
 
+//
+//            this._el.animate({
+//                top:targetHeight
+//            }, 500, function(){
+//                _this.onOpenTransitionEnd();
+//            });
 
-            this._el.animate({
-                top:targetHeight
-            }, 500, function(){
-                _this.onOpenTransitionEnd();
-            });
+            this._el.css({'top':targetHeight+'px'});
+//            this.onOpenTransitionEnd();
+            _.delay($.proxy(this.onOpenTransitionEnd, this), 1000);
         },
 
         pageAnimateFromOpened : function(el, c){
@@ -220,11 +236,14 @@
                 this.contentSwap = null;
             }
 
-            this._el.animate({
-                top:'0'
-            }, 500, function(){
-                _this.onCloseTransitionEnd();
-            });
+//            this._el.animate({
+//                top:'0'
+//            }, 500, function(){
+//                _this.onCloseTransitionEnd();
+//            });
+
+            this._el.css({'top':'0'});
+            _.delay($.proxy(this.onCloseTransitionEnd, this), 1000);
         },
 
         onOpenTransitionEnd : function(){
@@ -268,11 +287,14 @@
             var _this = this;
             $m.cellRouter.navigate("/", {trigger:false});
             if(this.subcontentOpened){
-                this._el.animate({
-                    top:'0'
-                }, 500, function(){
-                    _this.onCloseTransitionEnd();
-                });
+//                this._el.animate({
+//                    top:'0'
+//                }, 500, function(){
+//                    _this.onCloseTransitionEnd();
+//                });
+
+                this._el.css({'top':'0'});
+                _.delay($.proxy(this.onCloseTransitionEnd, this), 1000);
                 this._el.mouseover(null);
                 this._el.unbind('tap click swipe focus');
             }
