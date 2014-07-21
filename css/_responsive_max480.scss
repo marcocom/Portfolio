@@ -52,7 +52,6 @@
     #information-text{
       height:250px;
 
-
       .content {
         min-height:250px;
 
@@ -76,6 +75,7 @@
         .article {
           //background: transparent url(img/cell-horiz-div.png) no-repeat 0 0;
           max-width:600px;
+          max-height: 140px;
           h6 {
             margin: 0;
             font-size:1em;

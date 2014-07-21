@@ -66,7 +66,7 @@
         "Title": "RITEPRO P.M.S.",
         "Client": "QuadRite 2000",
         "JobTitle": "UI/UX Designer",
-        "Article": "A proprietary web application for Product Data Management from Hewlett-Packard. The look needed to be very light and fast, with a design that could maintain integrity across all browser platforms including Unix and Solaris, and could also scale to encompass database returns of hundreds of rows and up to 20 columns in spread-sheet format. The user required that information be completely customizable and cross-reference able, that the sites layout and options and design be dynamically generated to a users security clearance. ",
+        "Article": "A proprietary web application for Product Data Management from Hewlett-Packard. The look needed to be very light and fast, with a design that could maintain integrity across all browser platforms including Unix and Solaris, and scale to encompass database returns of hundreds of rows and up to 20 columns in spread-sheet format. The user required that information be in multiple languages, that the sites layout be dynamic to a user's security clearance. ",
         "URL": [""],
         "Image":[
             "img/screens/quadrite1.jpg",

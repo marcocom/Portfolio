@@ -22,8 +22,8 @@
         "Title": "SATURN.COM REDESIGN",
         "Client": "Deutsch LA 2008",
         "JobTitle": "Designer, Flash Animator",
-        "Article": "Saturn was a new client to Deutsch LA, and I was brought aboard for my previous successes with Toyota, Nissan, and Infiniti, to concept and create the Homepage for this car client.  Using the latest FLV streaming techniques, the user experience is carefully loaded with control over the information-needs of visiting users and then delivers a user-driven video and still-photo introduction to each of the five vehicles.  This both was a way for me to repurpose the available very-rough footage that the client already had, and also help consumers identify the vehicle to the vehicles name.",
-        "URL": ["samples/comps/saturn2.jpg"],
+        "Article": "Saturn was a new client to Deutsch LA, and I was brought aboard for my previous successes with Toyota, Nissan, and Infiniti, to concept and create the Homepage for this car client.  Using the latest FLV streaming techniques, the user experience is carefully loaded with control over the information-needs of visiting users and then delivers a user-driven video and still-photo introduction to each of the five vehicles in under one megabyte.  This both was a way for me to repurpose the available very-rough footage that the client already had, and also help consumers identify the vehicle to the vehicles name.",
+        "URL": ["samples/flash/saturn"],
         "Image":[
             "img/screens/saturn1.jpg",
             "img/screens/saturn2.jpg"
@@ -38,11 +38,28 @@
         "JobTitle": "Lead Flash Developer",
         "Article": "TGIFridays looked to Deutsch LA to redesign and reinvigorate their online site and menu/information architecture.  My role was in the creation of the Homepage, Drinks section, and dynamic flash menu and image throughout the site with a development schedule of two weeks. The timeline required an experienced sure-hand on the server-side and DHTML provided by Kish Hiranand, and design by Todd Swaim.",
         "URL": [
-            "samples/flash/tgif"
+            "samples/flash/tgif",
+            "samples/comps/tgifridays1.jpg",
+            "samples/comps/tgifridays2.jpg"
         ],
         "Image":[
             "img/screens/tgifridays1.jpg",
             "img/screens/tgifridays2.jpg"
+        ]
+    },
+    {
+        "CellType" : "b",
+        "Medium": "html",
+        "Ref":"0",
+        "Title": "DEUTSCH COMPANY SITE",
+        "Client": "Deutsch 2008",
+        "JobTitle": "Multimedia Designer",
+        "Article": "I have been hired alot to create company websites.  They usually involve a ton of internal politic, organization of content, and a lot of motivation since there is rarely much budget for the project.",
+        "URL": ["samples/flash/deutsch"],
+        "Dimensions":"1280,720",
+        "Image":[
+            "img/screens/deutsch1.jpg",
+            "img/screens/deutsch2.jpg"
         ]
     },
     {

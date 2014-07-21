@@ -7,7 +7,7 @@
         "Title": "SAN DIEGO REALTORS",
         "Client": "iStrategy 2002",
         "JobTitle": "Creative Director",
-        "Article": "A collection of projects delivered to San Diego's premier brokers, through iStrategy, where we had created the first MLS data-mining logic ever, built by the brilliant wunderkind, Karl Garske. Each project had to be served on a custom framework using the ancient 'microsoft web classes' methodology. very inflexible, but I am proud of what we achieved.",
+        "Article": "A collection of projects delivered to San Diego's premier brokers, through iStrategy, where we had created the first MLS data-mining logic ever, built by the brilliant wunderkind, Karl Garske. Each project had to be served on a custom framework using the ancient 'microsoft web classes' front-end platform.",
         "URL": [""],
         "Dimensions":"1024,768",
         "Image":[
@@ -112,23 +112,6 @@
         "Image":[
             "img/screens/infiniti_paint1.jpg",
             "img/screens/infiniti_paint2.jpg"
-        ]
-    },
-    {
-        "CellType" : "b",
-        "Medium": "html",
-        "Ref":"0",
-        "Title": "SATURN HOMEPAGE",
-        "Client": "Deutsch 2008",
-        "JobTitle": "Art Director, Animator",
-        "Article": "A car company's homepage needs to be very small and light, since it can be hit by hundreds of thousands of users concurrently. This animation managed to deliver alot of content in under 1MB, sequentially loaded.",
-        "URL": [
-            "samples/flash/saturn"
-        ],
-        "Dimensions":"1024,768",
-        "Image":[
-            "img/screens/saturn1.jpg",
-            "img/screens/saturn2.jpg"
         ]
     },
     {

@@ -7,7 +7,7 @@
         "Title": "DELUXE",
         "Client": "CKS Partners / marchFIRST 2000",
         "JobTitle": "Art Director",
-        "Article": "A very different design developed under the Art Direction of Marcia Linwood. The eDeluxe project was built and designed exclusively for a European marketplace that connected users in buying and selling of goods in much the way that Ebay does in the USA however targeted to a higher level of transaction like collectible cars, houses and Art. The look and feel of the site promote a sense of refined taste and elegance in a way that our studies of European markets tended to dictate in our research and discovery.  User Interface principles had to be heavily relied upon yet be tastefully concealed within the folds of the design for thorough server-side customizability.",
+        "Article": "A very different design developed under the Art Direction of Marcia Linwood. The eDeluxe project was built and designed exclusively for a European marketplace that connected users in buying and selling of goods in much the way that Ebay does in the USA however targeted to a higher level of transaction like collectible cars, houses and Art.",
         "URL": [""],
         "Dimensions":"1024,768",
         "Image":[
@@ -24,7 +24,7 @@
         "Title": "TIVO.COM",
         "Client": "CKS Partners / marchFIRST 2001",
         "JobTitle": "Lead Flash Developer",
-        "Article": "TGIFridays looked to Deutsch LA to redesign and reinvigorate their online site and menu/information architecture.  My role was in the creation of the Homepage, Drinks section, and dynamic flash menu and image throughout the site with a development schedule of two weeks. The timeline required an experienced sure-hand on the server-side and DHTML provided by Kish Hiranand, and design by Todd Swaim.",
+        "Article": "TiVo was an unknown company when its 3 founders first came to us for a full identity and website. My role was in concepting and creating the navigation, as well as my then-famous customizable intro-animation, to provide metric information to the client about what it was their consumers found of interest. Built in the 56k days, this took alot to finesse with music as well.",
         "URL": [
             "samples/flash/tivo/home/index.html",
             "samples/flash/tivo/intro/index.html",

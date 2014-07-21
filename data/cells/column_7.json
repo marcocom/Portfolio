@@ -9,7 +9,7 @@
         "Client": "Code Particle 2011",
         "JobTitle": "Front-End Developer",
         "Article": "Built on KohanaPHP in MVC, this site required a very modular and widget-based solution to reuse UI components through-out the site. I built the javascript and Video player logic with pre-rolls and ad management",
-        "URL": "http://www.boldride.com",
+        "URL": ["http://www.boldride.com"],
         "Dimensions":"1280,720",
         "Image":[
             "img/screens/boldride1.jpg",
