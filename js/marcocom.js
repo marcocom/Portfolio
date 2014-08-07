@@ -375,13 +375,8 @@
                 'id':""
             },
             {
-                'Body':"while they are deciding, make even more art.",
+                'Body':"art is what you can get away with.",
                 'Credit':"Andy Warhol",
-                'id':""
-            },
-            {
-                'Body':"Let the blood and the bruises define your legacy.",
-                'Credit':"Lady Gaga",
                 'id':""
             }
         ],

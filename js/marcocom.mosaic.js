@@ -558,20 +558,25 @@
                 if(this.sizeLetter != "f" )   this.offContent.addClass('desaturate');
 
 //                if(this.onContent) this.onContent.topZIndex();
+
                 this.opened = true;
                 $m._informationOpened = true;
+
 //                if(this.sizeLetter == "f" ){
 //                    this._carousel.flexslider("pause");
 ////                    if(this.onContent) this.onContent.css({'top':'35%'});
 //                } else {
 
 //                    this.onContent.css({'top':(this.sizeLetter == 'a' ? '30%' : '0')});
+
+
                     var data = this.onContent[0].innerHTML;
                     $m._onStateContent.html(data).addClass("cell-"+this.sizeLetter);
 
                     //foreground element
                     var c = $m._onStateContent.find('.content');
                     var content = $(c[0]);
+                    $('<a class="information-close" href="#"><h5>X</h5></a>').insertAfter(content.find('.article')).click($.proxy(this.onClick, this));
                     //content.css({'top':'-100%'});
                     content.animate({ top: '-100%' }, 400, 'easeOutBounce');
 //                }

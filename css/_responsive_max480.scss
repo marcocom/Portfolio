@@ -15,7 +15,11 @@
         .homepage {
           width: 400px;
           height: 100%;
+          #cta-img{
 
+            left: 30%;
+            top: 1%;
+          }
           .intro-block {
             left: 5%;
             top: 10%;
@@ -54,7 +58,11 @@
 
       .content {
         min-height:250px;
-
+        .information-close{
+          height:10px;
+          width:10px;
+          padding:1px 0 0 1px;
+        }
         .title {
           font-weight: 800;
           margin: 5px 0 0 0;
@@ -117,4 +125,5 @@
     }
   }
 }
+
 

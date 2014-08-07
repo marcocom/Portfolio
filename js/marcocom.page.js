@@ -55,6 +55,8 @@
         tiles:null,
         tilesContainer:null,
         _currentMainMosaicX:0,
+        ctaImg:null,
+        _ctaIsHidden:false,
         _construct : function(el) {
             this._el = $(el);
             this._super(this._el);
@@ -67,6 +69,7 @@
         initPage : function(){
             var _this = this;
             this.closeButton = $('.sub-close-cta a').click($.proxy(this.pageCollapse, this));
+            this.ctaImg = $('#cta-img');
 
             this.toplinks.click($.proxy(this.clickAnimate, this));
             this._logo.click(function(e){
@@ -88,12 +91,17 @@
             var rand = _.random(1,7);
             this._currentBackgroundImg = 'img/backgrounds/bg'+rand+'.jpg';
             this.tiles.append('<img src="'+this._currentBackgroundImg+'">');
-//            $m.EventManager.addEventHandler($m.Event.MOSAIC_SCROLL_X, $.proxy(this.mosaicScrollHandler, this));
+            $m.EventManager.addEventHandler($m.Event.MOSAIC_SCROLL_X, $.proxy(this.mosaicScrollHandler, this));
         },
 
         mosaicScrollHandler : function(e, xdiff){
             this._currentMainMosaicX = xdiff;
-            this.scrollBackground(xdiff);
+//            this.scrollBackground(xdiff);
+            if(!this._ctaIsHidden){
+                this._ctaIsHidden = true;
+                $m.EventManager.removeEventHandler($m.Event.MOSAIC_SCROLL_X, $.proxy(this.mosaicScrollHandler, this));
+                $(this.ctaImg).fadeOut();
+            }
         },
 
         scrollBackground:function(mod){

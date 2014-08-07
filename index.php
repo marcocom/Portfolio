@@ -55,6 +55,7 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                     <img class="title" src="img/title.png">
                 </div>
                 <div id="information-text">
+
                 </div>
                 <div id="slider-container">
                     <div class="scroller">
@@ -77,6 +78,7 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                                 <a href="index_flash.html" target="_blank"><h5>visit the old flash portfolio here <b>>></b></h5></a>
                                 <a href="/marcocomparato" target="_blank"><h5>visit the even older flash portfolio here <b>>></b></h5></a>
                             </div>
+                            <img id="cta-img" src="img/mouse_drag_icon_200px.png">
                         </div>
                         <ul class="mosaic-container container"></ul>
 
@@ -84,14 +86,8 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                 </div>
                 <div class="backgrounds">
                     <div class="tiles">
-                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile normal"><!--img src="img/skies/sky1.jpg"--></div>
-                        <div class="tile flipped"><!--img src="img/skies/sky1.jpg"--></div>
+                        <div class="tile normal"></div>
+                        <div class="tile flipped"></div>
                     </div>
                 </div>
             </div>
@@ -113,9 +109,13 @@ if (preg_match ('/(?i)msie [4-7]/', $_SERVER['HTTP_USER_AGENT']))
                         <h4>t:</h4>
                         <a href="tel:13104975350"><h5>+1 (310) 497-5350</h5></a>
                         <h4>e:</h4>
-                        <a href="mailto:marco@marcocomparato.com"><h5>marco@marcocomparato.com</h5></a>
+                        <a href="mailto:marco@marcocomparato.com"><h5>marco@marcocomparato.com >></h5></a>
                         <h4>linkedin:</h4>
-                        <a href="http://www.linkedin.com/in/marcocom" target="_blank"><h5>linkedin:marcocom</h5></a>
+                        <a href="http://www.linkedin.com/in/marcocom" target="_blank"><h5>linkedin:marcocom >></h5></a>
+                        <h4>github:</h4>
+                        <a href="https://www.github.com/marcocom" target="_blank"><h5>github:marcocom >></h5></a>
+                        <h4>twitter:</h4>
+                        <a href="http://www.twitter.com/marcocomparato" target="_blank"><h5>@marcocomparato >></h5></a>
 
                     </li>
                     <div class="clear"></div>

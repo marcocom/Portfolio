@@ -9,7 +9,7 @@
         'lib/masonry.js',
         'lib/lodash.underscore.js',
         'lib/backbone.js',
-        'jquery.ext.js',
+        'utils.js',
         'helper.js',
         'lib/jquery.flexslider.js',
         'lib/jquery.fancybox.js',
